@@ -5,9 +5,10 @@ using UnityEngine;
 public class NPCDialogTrigger : MonoBehaviour
 {
 
-    public string sceneLevel;
+    
     private bool isTrigger;
     public GameObject Msg;
+    public GameObject Dialog;
 
 
     private GameObject pj = null;
@@ -22,6 +23,7 @@ public class NPCDialogTrigger : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 pj.GetComponent<Movement_Player>().enabled = false;
+                Dialog.SetActive(true);
 
             }
         }

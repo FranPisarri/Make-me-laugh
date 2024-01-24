@@ -8,5 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CarnivalPatio.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/ClownTent.unity
+    guid: 502d2f700c4557c4982c0acd283fbe0f
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

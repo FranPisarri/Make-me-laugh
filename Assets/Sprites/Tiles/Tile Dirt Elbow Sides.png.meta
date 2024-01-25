@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tile Dirt Elbow Sides_0: 1336524614003352652
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

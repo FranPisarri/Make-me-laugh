@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tile Dirt End 1_0: -5263310264880320760
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

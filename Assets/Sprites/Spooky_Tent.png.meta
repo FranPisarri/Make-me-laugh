@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c1780ec1d69433a49921e29dddea174f
+guid: c6cb56c2c70a67e4c922f17cfc64a535
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6389688752668951839
-    second: mgs_0
+      213: -3704837548724830348
+    second: Spooky_Tent_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mgs_0
+      name: Spooky_Tent_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 288
-        height: 39
+        width: 2757
+        height: 2319
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1eabbd7fee34357a0800000000000000
-      internalID: -6389688752668951839
+      spriteID: 47f3ab5e0e5c59cc0800000000000000
+      internalID: -3704837548724830348
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mgs_0: -6389688752668951839
+      Spooky_Tent_0: -3704837548724830348
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

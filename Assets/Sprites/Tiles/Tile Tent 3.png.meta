@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tile Tent 3_0: 5096278328760179714
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tile Grass 3_0: -1226519559495576717
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

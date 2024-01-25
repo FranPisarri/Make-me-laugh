@@ -8,25 +8,25 @@ public class DialogInteraction : MonoBehaviour
 {
     public string[] dialogos;
     private int dialogIndex;
-    private float timer;
 
     public TextMeshProUGUI textMesh;
     public GameObject pj;
+
+    [SerializeField] private TextWriter _textWriter;
+
     void Start()
     {
         dialogIndex = 0;
-        timer = 0;
+        _textWriter.AddWriter(textMesh, dialogos[dialogIndex], 0.1f);
     }
 
 
     void Update()
     {
-        timer += Time.deltaTime;
 
-        if (Input.GetKey(KeyCode.Space) && timer > 2)
+        if (Input.GetKey(KeyCode.Space) && !_textWriter.IsWriting)
         {
             Debug.Log("Sii");
-            timer = 0;
             dialogIndex++;
             if (dialogIndex < dialogos.Length) { UpdateDialog(dialogIndex); }
             else
@@ -39,6 +39,6 @@ public class DialogInteraction : MonoBehaviour
 
     private void UpdateDialog(int x)
     {
-        textMesh.text = dialogos[x];
+        _textWriter.AddWriter(textMesh, dialogos[x], 0.1f);
     }
 }

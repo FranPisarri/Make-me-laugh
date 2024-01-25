@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3580466532400522800}
   - component: {fileID: 2729408383335633288}
-  - component: {fileID: 2073953595526677889}
   - component: {fileID: 3293249846859595942}
   - component: {fileID: 6050250631377053206}
+  - component: {fileID: 2073953595526677889}
   m_Layer: 0
   m_Name: NPC Dialog Trigger
   m_TagString: Untagged
@@ -90,20 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2073953595526677889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4308245708804034754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a214f45764485c7489ddd18dee664b0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Msg: {fileID: 8576039269280952369}
-  Dialog: {fileID: 0}
 --- !u!50 &3293249846859595942
 Rigidbody2D:
   serializedVersion: 4
@@ -177,6 +163,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2073953595526677889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4308245708804034754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a214f45764485c7489ddd18dee664b0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Msg: {fileID: 8576039269280952369}
+  Dialog: {fileID: 0}
 --- !u!1 &8576039269280952369
 GameObject:
   m_ObjectHideFlags: 0

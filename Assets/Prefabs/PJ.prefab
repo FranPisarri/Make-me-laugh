@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4353920052103514921}
-  - component: {fileID: 4353920052103514926}
   - component: {fileID: 8884114567327949908}
   - component: {fileID: 938715709983779710}
   - component: {fileID: 1708649130205649902}
+  - component: {fileID: 4353920052103514926}
   - component: {fileID: 4214563548795250877}
   m_Layer: 0
   m_Name: PJ
@@ -38,19 +38,6 @@ Transform:
   - {fileID: 6993293956417135465}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4353920052103514926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4353920052103514927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8db0673ba5403e64a88457b2e5b0fdf3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocity: 10
 --- !u!82 &8884114567327949908
 AudioSource:
   m_ObjectHideFlags: 0
@@ -212,6 +199,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4353920052103514926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4353920052103514927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db0673ba5403e64a88457b2e5b0fdf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: 10
 --- !u!114 &4214563548795250877
 MonoBehaviour:
   m_ObjectHideFlags: 0

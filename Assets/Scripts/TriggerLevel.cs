@@ -5,10 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class TriggerLevel : MonoBehaviour
 {
-
-    public string sceneLevel;
     private bool isTrigger;
+
     public GameObject Msg;
+
+    public Animator transition;
+
+    public float transitionTime = 1f;
+
+    public string sceneName = null;
 
     private void Start()
     {
@@ -20,7 +25,7 @@ public class TriggerLevel : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                LoadScene(sceneLevel);
+                LoadScene();
             }
         }
     }
@@ -47,8 +52,17 @@ public class TriggerLevel : MonoBehaviour
 
     }
 
-    public void LoadScene(string sceneName)
+    public void LoadScene()
     {
+        StartCoroutine(LoadLevel());
+    }
+
+    IEnumerator LoadLevel()
+    {
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(transitionTime);
+
         SceneManager.LoadScene(sceneName);
     }
 }

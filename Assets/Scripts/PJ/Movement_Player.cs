@@ -6,6 +6,7 @@ public class Movement_Player : MonoBehaviour
 {
 
     public float velocity;
+    private Vector2 direction = Vector2.zero;
     void Start()
     {
         
@@ -48,9 +49,16 @@ public class Movement_Player : MonoBehaviour
             y *= 0.7f;
         }
 
-        transform.Translate(velocity * x * Time.deltaTime, velocity * y * Time.deltaTime, 0);
+        direction = new Vector2(velocity * x * Time.deltaTime, velocity * y * Time.deltaTime);
+        //transform.Translate(velocity * x * Time.deltaTime, velocity * y * Time.deltaTime, 0);
 
 
 
+    }
+
+    private void FixedUpdate()
+    {
+        this.GetComponent<Rigidbody2D>().velocity = direction*1000;
+        //this.GetComponent<Rigidbody2D>().AddForce(direction*100);
     }
 }

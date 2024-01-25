@@ -6,10 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: de1c5a0bbb811da4f8f7ae525003032d
+  - enabled: 1
     path: Assets/Scenes/CarnivalPatio.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/ClownTent.unity
     guid: 502d2f700c4557c4982c0acd283fbe0f
+  - enabled: 1
+    path: Assets/Scenes/SpookyTent.unity
+    guid: 7d4823caa4bb0e34fb367df7ffd4ff62
+  - enabled: 1
+    path: Assets/Scenes/EndingScene.unity
+    guid: 7d5315edb75552e43bc0eb63b39a4c2f
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

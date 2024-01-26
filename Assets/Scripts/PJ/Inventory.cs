@@ -4,10 +4,29 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    [SerializeField] private bool jokerNose = false;
+    public static Inventory Instance;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Inventory.Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
     [SerializeField] private bool[] cards;
-    [SerializeField] private bool item3 = false;
-    [SerializeField] private bool item4 = false;
-    [SerializeField] private bool item5 = false;
+    public bool[] keyItems;
+    //Elemento0 = clownNose
+
+    public Vector3 spawnCoordinates;
+    
+
+
     
 }

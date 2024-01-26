@@ -1,22 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class TriggerLevel : MonoBehaviour
+public class KeyItem : MonoBehaviour
 {
-    private bool isTrigger;
 
+    private bool isTrigger;
     public GameObject Msg;
 
-    public Animator transition;
 
-    public float transitionTime = 1f;
-
-    public string sceneName = null;
-
-    public Vector3 newSpawn;
-
+    private GameObject pj = null;
     private void Start()
     {
         isTrigger = false;
@@ -27,7 +20,8 @@ public class TriggerLevel : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                LoadScene();
+                pj.GetComponent<Movement_Player>().enabled = false;
+
             }
         }
     }
@@ -37,10 +31,11 @@ public class TriggerLevel : MonoBehaviour
         Debug.Log("Entró");
         if (collision != null)
         {
+            pj = collision.gameObject;
             isTrigger = true;
             Msg.SetActive(true);
         }
-        
+
     }
 
     public void OnTriggerExit2D(Collider2D collision)
@@ -52,21 +47,5 @@ public class TriggerLevel : MonoBehaviour
             Msg.SetActive(false);
         }
 
-    }
-
-    public void LoadScene()
-    {
-        StartCoroutine(LoadLevel());
-    }
-
-    IEnumerator LoadLevel()
-    {
-        transition.SetTrigger("Start");
-
-        yield return new WaitForSeconds(transitionTime);
-
-        Inventory.Instance.spawnCoordinates = newSpawn;
-
-        SceneManager.LoadScene(sceneName);
     }
 }

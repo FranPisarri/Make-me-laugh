@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 938715709983779710}
   - component: {fileID: 1708649130205649902}
   - component: {fileID: 4353920052103514926}
-  - component: {fileID: 4214563548795250877}
   m_Layer: 8
   m_Name: PJ
   m_TagString: Untagged
@@ -212,23 +211,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: 3
---- !u!114 &4214563548795250877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4353920052103514927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e640e464e97c9c3408501e45435495b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jokerNose: 0
-  item2: 0
-  item3: 0
-  item4: 0
-  item5: 0
 --- !u!1 &4353920052578078982
 GameObject:
   m_ObjectHideFlags: 0

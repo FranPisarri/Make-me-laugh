@@ -129,15 +129,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4353920052103514921, guid: 0fce136033e816241b0e41ebb9bfca77, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -71.45399
+      value: -72
       objectReference: {fileID: 0}
     - target: {fileID: 4353920052103514921, guid: 0fce136033e816241b0e41ebb9bfca77, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 45.903347
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 4353920052103514921, guid: 0fce136033e816241b0e41ebb9bfca77, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0798753
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4353920052103514921, guid: 0fce136033e816241b0e41ebb9bfca77, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18172,6 +18172,14 @@ PrefabInstance:
       value: ClownTent
       objectReference: {fileID: 0}
     - target: {fileID: 2775922566739841129, guid: 22acdab86ca3e6f4b86fc6de07ff3320, type: 3}
+      propertyPath: newSpawn.x
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2775922566739841129, guid: 22acdab86ca3e6f4b86fc6de07ff3320, type: 3}
+      propertyPath: newSpawn.y
+      value: -11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2775922566739841129, guid: 22acdab86ca3e6f4b86fc6de07ff3320, type: 3}
       propertyPath: sceneLevel
       value: ClownTent
       objectReference: {fileID: 0}
@@ -18417,6 +18425,53 @@ Transform:
   - {fileID: 43728033}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2109900908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2109900910}
+  - component: {fileID: 2109900909}
+  m_Layer: 0
+  m_Name: Inventory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2109900909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109900908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e640e464e97c9c3408501e45435495b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cards: 
+  keyItems: 000000
+  spawnCoordinates: {x: -72, y: 48, z: 0}
+--- !u!4 &2109900910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109900908}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.6240354, y: -7.353911, z: 0.08015329}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2131923540 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3387662947268775016, guid: 22acdab86ca3e6f4b86fc6de07ff3320, type: 3}
@@ -18436,3 +18491,4 @@ SceneRoots:
   - {fileID: 42490740}
   - {fileID: 496191971}
   - {fileID: 1175202437}
+  - {fileID: 2109900910}

@@ -35,7 +35,7 @@ public class TriggerLevel : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Entró");
-        if (collision != null)
+        if (collision.GetComponent<Movement_Player>())
         {
             isTrigger = true;
             Msg.SetActive(true);

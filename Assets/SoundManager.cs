@@ -1,15 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
     public static SoundManager instance;
 
-    // Scene-specific sound mappings
-    public AudioClip[] MenuSounds;
-    public AudioClip[] GameSounds;
+    // Add your general sounds here
+    public AudioClip[] generalSounds;
 
     private AudioSource audioSource;
 
@@ -29,62 +28,29 @@ public class SoundManager : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    private void OnEnable()
+    private void OnTriggerEnter(Collider other) // cuando colisiona con algo entra
     {
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    private void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        // Adjust sound mappings based on the loaded scene
-        switch (scene.buildIndex)
+        if (other.CompareTag("Player"))// se fija si el tag es "player"
         {
-            case 1:
-                audioSource.clip = null; // Reset clip in case it was playing
-                audioSource.clip = GetRandomSound(MenuSounds);
-                break;
-            case 2:
-                audioSource.clip = null;
-                audioSource.clip = GetRandomSound(GameSounds);
-                break;
-                // Add more cases for additional scenes
+            PlayRandomSound();// reproduce sonido random
         }
     }
 
-    private AudioClip GetRandomSound(AudioClip[] soundArray)
+    private void PlayRandomSound()
     {
-        if (soundArray == null || soundArray.Length == 0)
+        if (generalSounds == null || generalSounds.Length == 0)
         {
-            Debug.LogError("No sound clips assigned for the current scene.");
-            return null;
+            Debug.LogError("No general sound clips assigned.");
+            return;
         }
 
-        int randomIndex = Random.Range(0, soundArray.Length);
-        return soundArray[randomIndex];
+        int randomIndex = Random.Range(0, generalSounds.Length);
+        audioSource.PlayOneShot(generalSounds[randomIndex]);
     }
 
-    public void PlayCurrentSceneSound()
-    {
-        if (audioSource.clip != null)
-        {
-            audioSource.PlayOneShot(audioSource.clip);
-        }
-        else
-        {
-            Debug.LogWarning("No sound assigned for the current scene.");
-        }
-    }
-
-    public void SetVolume(float volume)
+    public void SetVolume(float volume) // cambia el volumen
     {
         volume = Mathf.Clamp01(volume);
         audioSource.volume = volume;
     }
 }
-
-//Call SoundManager.instance.PlayCurrentSceneSound() whenever you want to play the scene-specific sound

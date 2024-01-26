@@ -7,9 +7,9 @@ public class KeyItem : MonoBehaviour
 
     private bool isTrigger;
     public GameObject Msg;
+    public ItemName keyItem;
 
 
-    private GameObject pj = null;
     private void Start()
     {
         isTrigger = false;
@@ -20,7 +20,8 @@ public class KeyItem : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                pj.GetComponent<Movement_Player>().enabled = false;
+                Inventory.Instance.keyItems[(int)keyItem] = true;
+                this.gameObject.SetActive(false);
 
             }
         }
@@ -31,7 +32,6 @@ public class KeyItem : MonoBehaviour
         Debug.Log("Entró");
         if (collision != null)
         {
-            pj = collision.gameObject;
             isTrigger = true;
             Msg.SetActive(true);
         }

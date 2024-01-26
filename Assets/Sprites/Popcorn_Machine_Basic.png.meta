@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b3cf09e004672bc4b8f98abfbc2da71b
+guid: 704516aea7974564181116726dfa618c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6324880435504713953
-    second: lab_0
+      213: -3943234031029316405
+    second: Popcorn_Machine_Basic_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lab_0
+      name: Popcorn_Machine_Basic_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 952
-        height: 539
+        width: 775
+        height: 835
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1f6cea21c28938a0800000000000000
-      internalID: -6324880435504713953
+      spriteID: bc4144a7a81d649c0800000000000000
+      internalID: -3943234031029316405
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      lab_0: -6324880435504713953
+      Popcorn_Machine_Basic_0: -3943234031029316405
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

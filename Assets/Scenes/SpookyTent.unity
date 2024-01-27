@@ -10826,6 +10826,7 @@ MonoBehaviour:
   dialogos:
   - ...
   - "I can\u2019t find my way outside and those\u2026 things\u2026 are so scary!"
+  - Could you lead the way, kitty?
   - ...
   textMesh: {fileID: 1081223843}
   pj: {fileID: 1784483257}

@@ -3087,12 +3087,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogos1:
   - ...
-  - "Donde estar\xE1 mi nariz?"
-  - La necesito para mi show
+  - Oh boy! Why are none of these people laughing?
+  - I'm missing something... But what is it?
   - ...
   dialogos2:
-  - Esa es mi nariz :)
-  - A trabajar!
+  - My nose! Now the show can truly begin!
+  - Thank you, Otto!
   textMesh: {fileID: 1847923454}
   pj: {fileID: 506716121}
   keyObject: 0

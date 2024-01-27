@@ -77,6 +77,11 @@ public class SoundManager : MonoBehaviour
         audioSource.Play();
     }
 
+    private void Start()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
     public void StopSound()
     {
         // Stop the currently playing sound
@@ -90,5 +95,11 @@ public class SoundManager : MonoBehaviour
     {
         volume = Mathf.Clamp01(volume);
         audioSource.volume = volume;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Stop the sound when a new scene is loaded
+        StopSound();
     }
 }

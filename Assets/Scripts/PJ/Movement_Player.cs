@@ -38,6 +38,6 @@ public class Movement_Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rg.velocity = direction;
+        rb.velocity = direction;
     }
 }

@@ -91,4 +91,10 @@ public class SoundManager : MonoBehaviour
         volume = Mathf.Clamp01(volume);
         audioSource.volume = volume;
     }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Stop the sound when a new scene is loaded
+        StopSound();
+    }
 }

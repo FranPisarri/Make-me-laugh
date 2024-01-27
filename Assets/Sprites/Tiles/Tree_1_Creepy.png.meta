@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tree_1_Creepy_0: -1498852161389776898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

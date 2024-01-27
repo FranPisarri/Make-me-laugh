@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wood_Tile_Stair_0: 6018270444883510490
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

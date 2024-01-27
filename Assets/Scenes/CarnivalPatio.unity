@@ -20691,7 +20691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cards: 00000000000000000000
   keyItems: 000000
-  spawnCoordinates: {x: -72, y: -48, z: 0}
+  spawnCoordinates: {x: 0, y: 0, z: 0}
 --- !u!4 &2109900910
 Transform:
   m_ObjectHideFlags: 0

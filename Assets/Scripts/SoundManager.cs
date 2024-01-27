@@ -9,7 +9,7 @@ public class SoundManager : MonoBehaviour
 
     // Add your general sounds here
     public AudioClip[] generalSounds;
-    private AudioSource audioSource;
+    public AudioSource audioSource;
     private float fadeDuration = 1.5f; // Adjust the duration of fade-in and fade-out
 
     private void Awake()

@@ -12748,6 +12748,14 @@ PrefabInstance:
       value: CarnivalPatio
       objectReference: {fileID: 0}
     - target: {fileID: 2775922566739841129, guid: 22acdab86ca3e6f4b86fc6de07ff3320, type: 3}
+      propertyPath: newSpawn.x
+      value: 94
+      objectReference: {fileID: 0}
+    - target: {fileID: 2775922566739841129, guid: 22acdab86ca3e6f4b86fc6de07ff3320, type: 3}
+      propertyPath: newSpawn.y
+      value: -32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2775922566739841129, guid: 22acdab86ca3e6f4b86fc6de07ff3320, type: 3}
       propertyPath: transition
       value: 
       objectReference: {fileID: 1729569536}

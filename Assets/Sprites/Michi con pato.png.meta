@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Michi con pato_0: 5462547833498461520
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

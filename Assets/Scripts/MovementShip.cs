@@ -6,7 +6,7 @@ public class MovementShip : MonoBehaviour
 {
     public Vector2 movePoint1;
     public Vector2 movePoint2;
-    private Vector2 movePoint;
+    public Vector2 movePoint;
     public float speed;
 
     void Start()

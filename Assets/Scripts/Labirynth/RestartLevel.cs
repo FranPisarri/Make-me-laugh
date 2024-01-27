@@ -23,13 +23,16 @@ public class RestartLevel : MonoBehaviour
 
     IEnumerator ResetLevel()
     {
+
+        GetComponent<KeyItemLostBoy>().ResetLevel();
+
         targetChildren.GetComponentInChildren<SpriteRenderer>().enabled = true;
 
         yield return new WaitForSeconds(popUpTime);
 
         targetChildren.GetComponentInChildren<SpriteRenderer>().enabled = false;
 
-        transition.SetTrigger("Start");
+        transition.SetBool("Start", true);
 
         yield return new WaitForSeconds(resetTime);
 
@@ -37,6 +40,8 @@ public class RestartLevel : MonoBehaviour
 
         GetComponent<Transform>().position = spawnCoordinates;
 
-        yield return new WaitForSeconds(transitionTime);    
+        yield return new WaitForSeconds(transitionTime);
+
+        transition.SetBool("Start", false);
     }
 }

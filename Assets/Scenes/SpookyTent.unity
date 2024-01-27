@@ -529,6 +529,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4308245708804034754, guid: e26d3076f19f01845a49f56f51e31afa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1917104715}
+    - targetCorrespondingSourceObject: {fileID: 4308245708804034754, guid: e26d3076f19f01845a49f56f51e31afa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1917104716}
   m_SourcePrefab: {fileID: 100100000, guid: e26d3076f19f01845a49f56f51e31afa, type: 3}
 --- !u!1 &139235150
 GameObject:
@@ -875,6 +878,7 @@ MonoBehaviour:
   pos3: {fileID: 928333140}
   pos4: {fileID: 1067679893}
   lightTimer: 2
+  on: 0
 --- !u!1 &216111331
 GameObject:
   m_ObjectHideFlags: 0
@@ -10421,6 +10425,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 698819811}
   playerLight: {fileID: 52746744}
+  trap: {fileID: 173912002}
+  animatronics: []
 --- !u!1 &329147783
 GameObject:
   m_ObjectHideFlags: 0
@@ -10738,7 +10744,7 @@ GameObject:
   - component: {fileID: 535636134}
   - component: {fileID: 535636137}
   - component: {fileID: 535636136}
-  - component: {fileID: 535636135}
+  - component: {fileID: 535636138}
   m_Layer: 5
   m_Name: CuadroDeTexto
   m_TagString: Untagged
@@ -10767,30 +10773,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -190}
   m_SizeDelta: {x: 1200, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &535636135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 535636133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37b0e29ac994cea4997c51e8f308fa6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogos1:
-  - ...
-  - 'Estoy perdido gatito '
-  - Ayudame por favor
-  - ...
-  dialogos2:
-  - Gracias gatito
-  - No mas casa terrorifica para mi
-  textMesh: {fileID: 1081223843}
-  pj: {fileID: 1784483257}
-  keyObject: 1
-  _textWriter: {fileID: 1323816806}
 --- !u!114 &535636136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10829,6 +10811,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535636133}
   m_CullTransparentMesh: 1
+--- !u!114 &535636138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535636133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc8698dea4e8df4bb4feb731cbfb6ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogos:
+  - ...
+  - Estoy asustado ayuda!
+  - ...
+  textMesh: {fileID: 1081223843}
+  pj: {fileID: 1784483257}
+  _textWriter: {fileID: 1323816806}
 --- !u!1 &691907019
 GameObject:
   m_ObjectHideFlags: 0
@@ -13594,6 +13595,19 @@ MonoBehaviour:
   spawnCoordinates: {x: -16, y: 80, z: 1}
   targetChildren: {fileID: 1891055606}
   transition: {fileID: 1327266421}
+--- !u!114 &1917104716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917104709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e0f65437a762545ba43830d6d71b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyItem: 1
 --- !u!1 &2072874427
 GameObject:
   m_ObjectHideFlags: 0

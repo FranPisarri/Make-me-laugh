@@ -15,12 +15,22 @@ public class TrapMovement : MonoBehaviour
 
     private bool coroutine = false;
 
+    public bool on = false;
+
     private void Update()
     {
-        if (coroutine == false)
+        if (on == true) 
         {
-            StartCoroutine(Rotate());
+            if (coroutine == false)
+            {
+                StartCoroutine(Rotate());
+            }
         }
+    }
+
+    public void Light()
+    {
+        on = true;
     }
 
     IEnumerator Rotate()

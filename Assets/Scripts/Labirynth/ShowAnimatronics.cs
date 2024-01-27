@@ -4,6 +4,7 @@ using UnityEngine;
 using static System.TimeZoneInfo;
 using UnityEngine.SceneManagement;
 using UnityEngine.Rendering.Universal;
+using Unity.VisualScripting;
 
 public class ShowAnimatronics : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class ShowAnimatronics : MonoBehaviour
 
     [SerializeField] private float animatronicTime = 2.5f;
 
+    private bool on = false;
+
     void Start()
     {
         time = 0;
@@ -21,11 +24,19 @@ public class ShowAnimatronics : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
-        if (time > timer)
+        if (on == true)
         {
-            StartCoroutine(AnimatronicTimer());
-            this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+            if (time > timer)
+            {
+                StartCoroutine(AnimatronicTimer());
+                this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+            }
         }
+    }
+
+    public void TurnOn()
+    {
+        on = true;
     }
 
     IEnumerator AnimatronicTimer()

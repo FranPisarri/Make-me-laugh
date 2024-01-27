@@ -51,7 +51,8 @@ public class SoundManager : MonoBehaviour
         }
 
         // Play specific sound using PlayOneShot after the fade-in
-        PlayRandomSound();
+        int randomIndex = Random.Range(0, generalSounds.Length);
+        PlayRandomSound(randomIndex);
 
         // Wait for a moment (adjust this time as needed)
         yield return new WaitForSeconds(1.0f);
@@ -69,16 +70,14 @@ public class SoundManager : MonoBehaviour
         audioSource.volume = 0;
     }
 
-    private void PlayRandomSound()
+    private void PlayRandomSound(int number)
     {
         if (generalSounds == null || generalSounds.Length == 0)
         {
             Debug.LogError("No general sound clips assigned.");
             return;
         }
-
-        int randomIndex = Random.Range(0, generalSounds.Length);
-        audioSource.PlayOneShot(generalSounds[randomIndex]);
+        audioSource.PlayOneShot(generalSounds[number]);
     }
 
     public void SetVolume(float volume)

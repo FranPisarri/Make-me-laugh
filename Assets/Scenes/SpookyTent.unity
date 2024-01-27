@@ -284,7 +284,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1815057575}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2073953595526677889, guid: e26d3076f19f01845a49f56f51e31afa, type: 3}
       propertyPath: Dialog
@@ -304,15 +304,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 3580466532400522800, guid: e26d3076f19f01845a49f56f51e31afa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.74
+      value: -16
       objectReference: {fileID: 0}
     - target: {fileID: 3580466532400522800, guid: e26d3076f19f01845a49f56f51e31afa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20.41
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 3580466532400522800, guid: e26d3076f19f01845a49f56f51e31afa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.26441306
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3580466532400522800, guid: e26d3076f19f01845a49f56f51e31afa, type: 3}
       propertyPath: m_LocalRotation.w
@@ -344,7 +344,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4308245708804034754, guid: e26d3076f19f01845a49f56f51e31afa, type: 3}
       propertyPath: m_Name
-      value: NPC Dialog Trigger
+      value: LostBoy
       objectReference: {fileID: 0}
     - target: {fileID: 4308245708804034754, guid: e26d3076f19f01845a49f56f51e31afa, type: 3}
       propertyPath: m_TagString
@@ -10695,7 +10695,7 @@ Transform:
   m_GameObject: {fileID: 1151265242}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.3715955, w: 0.92839473}
-  m_LocalPosition: {x: 1.4600003, y: -0.00000029802322, z: 0}
+  m_LocalPosition: {x: 0.74, y: 0.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10977,6 +10977,7 @@ GameObject:
   - component: {fileID: 1411335597}
   - component: {fileID: 1411335598}
   - component: {fileID: 1411335599}
+  - component: {fileID: 1411335600}
   m_Layer: 0
   m_Name: VisionCone
   m_TagString: Untagged
@@ -10992,7 +10993,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411335596}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9476391, w: -0.3193433}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11045,9 +11046,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 2.7886503, y: -7.6865172}
-      - {x: 11.077518, y: -4.8356266}
-      - {x: 0.15866286, y: 0.029692352}
+    - - {x: 4.98193, y: 8.724873}
+      - {x: -2.003137, y: 9.887797}
+      - {x: -4.9941483, y: 8.685841}
+      - {x: 0.016063482, y: -0.018412411}
   m_UseDelaunayMesh: 0
 --- !u!114 &1411335599
 MonoBehaviour:
@@ -11061,6 +11063,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d7fa22f5a908c64e9a56647bb18f3cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1411335600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411335596}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ComponentVersion: 2
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.252
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_LightVolumeIntensity: 1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: 9760524e00000000250060ee
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowsEnabled: 1
+  m_ShadowIntensity: 0.75
+  m_ShadowSoftness: 0.3
+  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: 0, y: -0.00000011920929, z: 0}
+    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+  m_PointLightInnerAngle: 60.33
+  m_PointLightOuterAngle: 60.33
+  m_PointLightInnerRadius: 0.22
+  m_PointLightOuterRadius: 10.060921
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &1510738576
 GameObject:
   m_ObjectHideFlags: 0
@@ -11526,38 +11580,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1815057574
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1815057575}
-  m_Layer: 0
-  m_Name: LostBoy
-  m_TagString: LostBoy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1815057575
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1815057574}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15, y: 60, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1257123627}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1891055605
 GameObject:
   m_ObjectHideFlags: 0
@@ -11633,7 +11655,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 76
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11709,6 +11731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Setspeed: 3
+  chaseDist: 0
   stopDist: 3
 --- !u!114 &1917104715
 MonoBehaviour:
@@ -11722,7 +11745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 133f50f4a0975af4db28051525759987, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnCoordinates: {x: -15, y: 60, z: 1}
+  spawnCoordinates: {x: -16, y: 80, z: 1}
   transition: {fileID: 1327266421}
 --- !u!1001 &2082097297
 PrefabInstance:
@@ -11963,8 +11986,8 @@ SceneRoots:
   - {fileID: 329147787}
   - {fileID: 1323816807}
   - {fileID: 257326560}
-  - {fileID: 1815057575}
   - {fileID: 1510738578}
   - {fileID: 698819812}
   - {fileID: 688918730}
   - {fileID: 1736971101}
+  - {fileID: 70101767}

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using static System.TimeZoneInfo;
 using UnityEngine.SceneManagement;
+using UnityEngine.Rendering.Universal;
 
 public class ShowAnimatronics : MonoBehaviour
 {
@@ -31,11 +32,13 @@ public class ShowAnimatronics : MonoBehaviour
     {
         this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
         GetComponentInChildren<PolygonCollider2D>().enabled = true;
+        GetComponentInChildren<Light2D>().enabled = true;
 
         yield return new WaitForSeconds(animatronicTime);
 
         this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
         GetComponentInChildren<PolygonCollider2D>().enabled = false;
+        GetComponentInChildren<Light2D>().enabled = false;
 
         time = 0;
     }

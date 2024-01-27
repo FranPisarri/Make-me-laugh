@@ -31,7 +31,11 @@ public class RestartLevel : MonoBehaviour
 
         yield return new WaitForSeconds(resetTime);
 
-        GetComponentInParent<Transform>().position = spawnCoordinates;
+        GetComponent<BoyFollows>().chaseDist = 0f;
+
+        GetComponent<Transform>().position = spawnCoordinates;
+
+        GetComponent<SpriteRenderer>().enabled = true;
 
         yield return new WaitForSeconds(transitionTime);    
     }

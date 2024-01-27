@@ -16,7 +16,7 @@ public class BoyFollows : MonoBehaviour
 
     private float speed;
 
-    private float chaseDist = 0f;
+    public float chaseDist = 0f;
 
     public float stopDist;
 

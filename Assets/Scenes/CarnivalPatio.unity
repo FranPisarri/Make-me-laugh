@@ -20501,8 +20501,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cef75f583de67294986daaf97257e7da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogos1: []
-  dialogos2: 
+  dialogos1:
+  - cat
+  - duck
+  - cat
+  - ficht
+  - duck
+  - cat
+  - fight
+  - duck
+  - cat
+  - fight
+  - duck
+  dialogos2: 0001000001000001000001
   img1: {fileID: 1568530338}
   img2: {fileID: 1929548083}
   textMesh1: {fileID: 1041355417}

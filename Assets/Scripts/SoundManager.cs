@@ -9,7 +9,6 @@ public class SoundManager : MonoBehaviour
 
     // Add your general sounds here
     public AudioClip[] generalSounds;
-
     private AudioSource audioSource;
     private float fadeDuration = 1.5f; // Adjust the duration of fade-in and fade-out
 
@@ -73,7 +72,18 @@ public class SoundManager : MonoBehaviour
             Debug.LogError("No general sound clips assigned.");
             return;
         }
-        audioSource.PlayOneShot(generalSounds[number]);
+        audioSource.clip = generalSounds[number];
+        audioSource.loop = true;
+        audioSource.Play();
+    }
+
+    public void StopSound()
+    {
+        // Stop the currently playing sound
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
     }
 
     public void SetVolume(float volume)

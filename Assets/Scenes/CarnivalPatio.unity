@@ -20502,17 +20502,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogos1:
-  - cat
-  - duck
-  - cat
-  - ficht
-  - duck
-  - cat
-  - fight
-  - duck
-  - cat
-  - fight
-  - duck
+  - Hey! You! What do you have in your beak?
+  - Mind your own business! Get lost, puss!
+  - 'I don''t mean any harm, my mallard friend, but I think you are holding a tarot
+    card I''ve been sent to retrieve. '
+  - I'll pluck your feathers and make myself a new bed.
+  - I don't give a duck! Now go away, before I give you a crash course in swimming!
+  - I'll be out of your feathers as soon as I get that card you're holding.
+  - Lucky me, duck liver is on the menu tonight.
+  - Oh, yeah? Well, what's in it for me, then?
+  - You like humans giving you bread, right? Well if you don't give me that card
+    and the carnival fails, there won't be any humans around!
+  - Your own well-being was at stake here. Too bad you failed to realize it sooner.
+  - Fine. Take your dumb card and get out of my sight.
   dialogos2: 0001000001000001000001
   img1: {fileID: 1568530338}
   img2: {fileID: 1929548083}

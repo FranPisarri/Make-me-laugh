@@ -26,6 +26,11 @@ public class SoundManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
         audioSource = GetComponent<AudioSource>();
+        audioSource.clip = generalSounds[0];
+        audioSource.loop = true;
+
+        // Play the sound
+        audioSource.Play();
     }
 
     public void SoundCall(int number)

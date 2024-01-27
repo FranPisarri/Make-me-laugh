@@ -3087,12 +3087,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogos1:
   - ...
-  - "Donde estar\xE1 mi nariz?"
-  - La necesito para mi show
+  - Oh boy! Why are none of these people laughing?
+  - I'm missing something... But what is it?
   - ...
   dialogos2:
-  - Esa es mi nariz :)
-  - A trabajar!
+  - My nose! Now the show can truly begin!
+  - Thank you, Otto!
   textMesh: {fileID: 1847923454}
   pj: {fileID: 506716121}
   keyObject: 0
@@ -4032,6 +4032,10 @@ PrefabInstance:
     - target: {fileID: 8369067187767156331, guid: b60da50c561db6f4db93b75abe93d8b6, type: 3}
       propertyPath: m_Name
       value: PopUpsZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369067187767156331, guid: b60da50c561db6f4db93b75abe93d8b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

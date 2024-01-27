@@ -24,7 +24,7 @@ public class ShowAnimatronics : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
-        if (on == true)
+        if (on)
         {
             if (time > timer)
             {
@@ -37,6 +37,7 @@ public class ShowAnimatronics : MonoBehaviour
     public void TurnOn()
     {
         on = true;
+        Debug.Log("On");
     }
 
     IEnumerator AnimatronicTimer()

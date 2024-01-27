@@ -20,7 +20,7 @@ public class Inventory : MonoBehaviour
     }
 
 
-    [SerializeField] private bool[] cards;
+    public bool[] cards;
     public bool[] keyItems;
     //Elemento0 = clownNose
 

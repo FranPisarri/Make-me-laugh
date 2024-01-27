@@ -25,7 +25,7 @@ public class DarknessTrigger : MonoBehaviour
 
         foreach(Transform t in animatronics)
         {
-            GetComponent<ShowAnimatronics>().TurnOn();
+            t.GetComponentInChildren<ShowAnimatronics>().TurnOn();
         }
     }
 }

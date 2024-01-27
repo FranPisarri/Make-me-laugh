@@ -6,8 +6,8 @@ using UnityEngine;
 public class TextWriter : MonoBehaviour
 {
     private TextMeshProUGUI uiText;
-    private string textToWrite;
-    private int characterIndex;
+    private string textToWrite = "";
+    private int characterIndex = 1;
     private float timePerCharacter;
     private float timer;
 
@@ -25,7 +25,7 @@ public class TextWriter : MonoBehaviour
 
     private void Update()
     {
-        if(uiText != null)
+        if(uiText != null && isWriting)
         {
             timer -= Time.deltaTime;
             if (timer <= 0f)

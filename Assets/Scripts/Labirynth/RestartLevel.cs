@@ -6,6 +6,8 @@ public class RestartLevel : MonoBehaviour
 {
     public Vector3 spawnCoordinates;
 
+    public Transform targetChildren;
+
     public Animator transition;
 
     private float popUpTime = 1f;
@@ -21,11 +23,11 @@ public class RestartLevel : MonoBehaviour
 
     IEnumerator ResetLevel()
     {
-        GetComponentInChildren<SpriteRenderer>().enabled = true;
+        targetChildren.GetComponentInChildren<SpriteRenderer>().enabled = true;
 
         yield return new WaitForSeconds(popUpTime);
 
-        GetComponentInChildren<SpriteRenderer>().enabled = false;
+        targetChildren.GetComponentInChildren<SpriteRenderer>().enabled = false;
 
         transition.SetTrigger("Start");
 
@@ -34,8 +36,6 @@ public class RestartLevel : MonoBehaviour
         GetComponent<BoyFollows>().chaseDist = 0f;
 
         GetComponent<Transform>().position = spawnCoordinates;
-
-        GetComponent<SpriteRenderer>().enabled = true;
 
         yield return new WaitForSeconds(transitionTime);    
     }

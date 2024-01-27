@@ -29,15 +29,12 @@ public class SoundManager : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void SoundCall(int number)
     {
-        if (other.CompareTag("Player"))
-        {
-            StartCoroutine(FadeInAndOut());
-        }
+       StartCoroutine(FadeInAndOut(number));
     }
 
-    private System.Collections.IEnumerator FadeInAndOut()
+    private System.Collections.IEnumerator FadeInAndOut(int number)
     {
         float currentTime = 0;
         float startVolume = 0;
@@ -51,8 +48,7 @@ public class SoundManager : MonoBehaviour
         }
 
         // Play specific sound using PlayOneShot after the fade-in
-        int randomIndex = Random.Range(0, generalSounds.Length);
-        PlayRandomSound(randomIndex);
+        PlayRandomSound(number);
 
         // Wait for a moment (adjust this time as needed)
         yield return new WaitForSeconds(1.0f);

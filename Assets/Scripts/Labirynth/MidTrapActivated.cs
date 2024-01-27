@@ -1,31 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static System.TimeZoneInfo;
-using UnityEngine.SceneManagement;
 using UnityEngine.Rendering.Universal;
 
-public class ShowAnimatronics : MonoBehaviour
+public class MidTrapActivated : MonoBehaviour
 {
-    [SerializeField] private float timer = 7f;
-
-    private float time;
-
     [SerializeField] private float animatronicTime = 2.5f;
 
-    void Start()
+    public void TrapActivated()
     {
-        time = 0;
-    }
-
-    void Update()
-    {
-        time += Time.deltaTime;
-        if (time > timer)
-        {
-            StartCoroutine(AnimatronicTimer());
-            this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
-        }
+        StartCoroutine(AnimatronicTimer());
+        this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
     }
 
     IEnumerator AnimatronicTimer()
@@ -39,7 +24,5 @@ public class ShowAnimatronics : MonoBehaviour
         this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
         GetComponentInChildren<PolygonCollider2D>().enabled = false;
         GetComponentInChildren<Light2D>().enabled = false;
-
-        time = 0;
     }
 }

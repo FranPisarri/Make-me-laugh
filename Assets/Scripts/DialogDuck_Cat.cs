@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -23,6 +25,7 @@ public class DialogDuck_Cat : MonoBehaviour
     private bool optionsActive = false;
     private int selected = 0;
     public GameObject pj;
+    public GameObject duck;
 
     [SerializeField] private TextWriter _textWriter;
     void Start()
@@ -69,6 +72,8 @@ public class DialogDuck_Cat : MonoBehaviour
                 if (selected == -1)
                 {
                     //Fight
+                    pj.GetComponentInChildren<Camera>().orthographicSize = 5;
+                    this.gameObject.SetActive(false);
                 }
                 dialogIndex++;
                 selected = 0;
@@ -81,6 +86,9 @@ public class DialogDuck_Cat : MonoBehaviour
             if (dialogIndex >= dialogos1.Length)
             {
                 pj.GetComponent<Movement_Player>().enabled = true;
+                duck.GetComponent<NPCDialogTrigger>().Msg.GetComponent<SpriteRenderer>().enabled = false;
+                duck.GetComponent<NPCDialogTrigger>().enabled = false;
+
                 gameObject.SetActive(false);
                 dialogIndex = 0;
             }
@@ -115,7 +123,7 @@ public class DialogDuck_Cat : MonoBehaviour
     private void UpdateDialog(int x, string[] dialogos, TextMeshProUGUI mesh)
     {
 
-        _textWriter.AddWriter(mesh, dialogos[x], 0.1f);
+        _textWriter.AddWriter(mesh, dialogos[x], 0.05f);
     }
 
     private void UpdateDialog(string newDialogue, TextMeshProUGUI mesh)

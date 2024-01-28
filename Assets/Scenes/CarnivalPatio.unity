@@ -367,7 +367,7 @@ MonoBehaviour:
   attackAnimation: {fileID: 1803982867}
   lifeBar: {fileID: 1626865015}
   duck: {fileID: 335901290}
-  deathDuck: {fileID: -7393734044249250320, guid: 4b1749df865474d4d8185f055998c505, type: 3}
+  deathDuck: {fileID: 7137651277739695788, guid: f684bc089f0693146b6872f06410f260, type: 3}
   timer: 0.2
 --- !u!1 &43728032
 GameObject:

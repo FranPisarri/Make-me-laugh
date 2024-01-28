@@ -3593,9 +3593,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e640e464e97c9c3408501e45435495b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cards: 
+  cards: 00000000000000000000
   keyItems: 000000
   spawnCoordinates: {x: 24, y: -12, z: 0}
+  misionCheck: 00000000
 --- !u!4 &533100662
 Transform:
   m_ObjectHideFlags: 0

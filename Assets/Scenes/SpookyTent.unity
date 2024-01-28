@@ -31299,9 +31299,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e640e464e97c9c3408501e45435495b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cards: 
+  cards: 00000000000000000000
   keyItems: 000000
   spawnCoordinates: {x: 0, y: 0, z: 0}
+  misionCheck: 00000000
 --- !u!4 &1510738578
 Transform:
   m_ObjectHideFlags: 0
@@ -31343,11 +31344,11 @@ PrefabInstance:
       objectReference: {fileID: 1729569536}
     - target: {fileID: 3387662947268775016, guid: 22acdab86ca3e6f4b86fc6de07ff3320, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.25879908
+      value: 0.7412009
       objectReference: {fileID: 0}
     - target: {fileID: 3387662947268775016, guid: 22acdab86ca3e6f4b86fc6de07ff3320, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.0595973
+      value: -4.059597
       objectReference: {fileID: 0}
     - target: {fileID: 3387662947268775016, guid: 22acdab86ca3e6f4b86fc6de07ff3320, type: 3}
       propertyPath: m_LocalPosition.z
@@ -31381,9 +31382,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7003804960741554874, guid: 22acdab86ca3e6f4b86fc6de07ff3320, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 9150938341095714516, guid: 22acdab86ca3e6f4b86fc6de07ff3320, type: 3}
       propertyPath: m_Name
       value: TriggerLevelSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150938341095714516, guid: 22acdab86ca3e6f4b86fc6de07ff3320, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32300,11 +32309,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4353920052103514921, guid: 0fce136033e816241b0e41ebb9bfca77, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4353920052103514921, guid: 0fce136033e816241b0e41ebb9bfca77, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 81.18
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4353920052103514921, guid: 0fce136033e816241b0e41ebb9bfca77, type: 3}
       propertyPath: m_LocalPosition.z

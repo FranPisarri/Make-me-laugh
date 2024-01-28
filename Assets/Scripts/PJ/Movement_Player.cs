@@ -16,7 +16,7 @@ public class Movement_Player : MonoBehaviour
     {
         transform.position = Inventory.Instance.spawnCoordinates;
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+        anim = GetComponentInChildren<Animator>();
     }
 
 

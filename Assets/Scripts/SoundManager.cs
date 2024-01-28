@@ -96,9 +96,18 @@ public class SoundManager : MonoBehaviour
         }
     }
 
+    public float GetVolume()
+    {
+        // Return the current volume of the AudioSource
+        return audioSource.volume;
+    }
+
     public void SetVolume(float volume)
     {
+        // Clamp the volume between 0 and 1
         volume = Mathf.Clamp01(volume);
+
+        // Set the volume of the AudioSource
         audioSource.volume = volume;
     }
 

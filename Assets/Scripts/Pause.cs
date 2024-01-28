@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class Pause : MonoBehaviour
 {
-    public static int puzzleComplete = 0;
     public GameObject pauseMenuUI;
     private bool isPaused = false;
 

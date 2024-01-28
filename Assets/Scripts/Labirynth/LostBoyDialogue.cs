@@ -45,6 +45,6 @@ public class LostBoyDialogue : MonoBehaviour
 
     private void UpdateDialog(int x, string[] dialogos)
     {
-        _textWriter.AddWriter(textMesh, dialogos[x], 0.1f);
+        _textWriter.AddWriter(textMesh, dialogos[x], 0.03f);
     }
 }

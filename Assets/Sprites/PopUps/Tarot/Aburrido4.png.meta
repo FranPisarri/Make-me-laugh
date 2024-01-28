@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Aburrido4_0: 1643813694526805479
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

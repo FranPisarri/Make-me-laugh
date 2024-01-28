@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bola2_0: -4177016777782333017
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

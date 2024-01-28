@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Enojo3_0: 7752392069102392935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

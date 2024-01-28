@@ -8,7 +8,7 @@ public class TriggerShip : MonoBehaviour
     public GameObject ship;
 
     public GameObject Msg;
-
+    public Vector2 newDestination;
     private bool isTrigger;
 
     void Start()
@@ -23,8 +23,16 @@ public class TriggerShip : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                ship.GetComponent<MovementShip>().movePoint = new Vector2(-93,-29);
-                this.gameObject.SetActive(false);
+                if(ship.transform.position.y > newDestination.y - 4)
+                {
+                    ship.GetComponent<SpriteRenderer>().sprite = ship.GetComponent<MovementShip>().moveDown;
+                }
+                else
+                {
+                    ship.GetComponent<SpriteRenderer>().sprite = ship.GetComponent<MovementShip>().moveUp;
+                }
+                ship.GetComponent<MovementShip>().movePoint = newDestination;
+                Msg.GetComponent<SpriteRenderer>().enabled = false;
                 
             }
         }

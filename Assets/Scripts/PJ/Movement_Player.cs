@@ -31,28 +31,24 @@ public class Movement_Player : MonoBehaviour
         if (derecha > 0)
         {
             transform.localScale = Vector3.one;
-            anim.SetTrigger("Side");
-            anim.SetBool("Idle", false);
+            anim.SetInteger("Walk", 1);
         }
         if (derecha < 0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
-            anim.SetTrigger("Side");
-            anim.SetBool("Idle", false);
+            anim.SetInteger("Walk", 1);
         }
         if (arriba > 0)
         {
-            anim.SetTrigger("Up");
-            anim.SetBool("Idle", false);
+            anim.SetInteger("Walk", 2);
         }
         if (arriba < 0)
         {
-            anim.SetTrigger("Down");
-            anim.SetBool("Idle", false);
+            anim.SetInteger("Walk", 3);
         }
         if (derecha == 0 && arriba == 0)
         {
-            anim.SetBool("Idle", true);
+            anim.SetInteger("Walk", 0);
         }
 
         direction = newDirection * velocity;

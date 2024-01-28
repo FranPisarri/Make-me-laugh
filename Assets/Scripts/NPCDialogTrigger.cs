@@ -7,6 +7,9 @@ public class NPCDialogTrigger : MonoBehaviour
 
     
     private bool isTrigger;
+    public bool IsTrigger => isTrigger;
+
+
     public GameObject Msg;
     public GameObject Dialog;
 

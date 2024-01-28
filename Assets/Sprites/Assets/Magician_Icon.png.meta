@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Magician_Icon_0: 7701132698183268233
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

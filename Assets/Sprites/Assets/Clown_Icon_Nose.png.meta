@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Clown_Icon_Nose_0: -1996157799162039391
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

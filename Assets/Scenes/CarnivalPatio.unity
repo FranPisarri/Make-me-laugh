@@ -25428,6 +25428,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168418088}
   m_LocalEulerAnglesHint: {x: 64.5, y: 0, z: -68.37}
+--- !u!1 &141920373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 141920374}
+  - component: {fileID: 141920376}
+  - component: {fileID: 141920375}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &141920374
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141920373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1406464301}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &141920375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141920373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &141920376
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141920373}
+  m_CullTransparentMesh: 1
 --- !u!1 &143703573
 GameObject:
   m_ObjectHideFlags: 0
@@ -25515,6 +25590,10 @@ PrefabInstance:
     - target: {fileID: 5269366398859681939, guid: e047241cee76f584a9b0f074164a7c43, type: 3}
       propertyPath: m_Name
       value: Aburrido4_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5269366398859681939, guid: e047241cee76f584a9b0f074164a7c43, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8818915125304764602, guid: e047241cee76f584a9b0f074164a7c43, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25708,6 +25787,10 @@ PrefabInstance:
     - target: {fileID: 5354034250884512007, guid: ba7bab3571b7ec842b168cdc74957139, type: 3}
       propertyPath: m_Name
       value: Pato2_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354034250884512007, guid: ba7bab3571b7ec842b168cdc74957139, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25945,6 +26028,10 @@ PrefabInstance:
     - target: {fileID: 8196821506514024617, guid: 6fe17f85016afa445a7aba1a146b1052, type: 3}
       propertyPath: m_Name
       value: Aburrido2_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196821506514024617, guid: 6fe17f85016afa445a7aba1a146b1052, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -50317,7 +50404,7 @@ GameObject:
   - component: {fileID: 335901292}
   - component: {fileID: 335901291}
   - component: {fileID: 335901294}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Duck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50444,6 +50531,84 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -3.04, y: 0.9}
   m_Radius: 2.37
+--- !u!1 &349721500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 349721502}
+  - component: {fileID: 349721501}
+  m_Layer: 0
+  m_Name: Trana carpa (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &349721501
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349721500}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 2.0000002, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 5.0000005, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &349721502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349721500}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: -0.24369957, w: 0.9698508}
+  m_LocalPosition: {x: 94.85861, y: -30.593277, z: -0.29301274}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -28.21}
 --- !u!1001 &467897979
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50455,6 +50620,10 @@ PrefabInstance:
     - target: {fileID: 6819312675622809148, guid: 00fd6e0e1b07bcd4db229576f5a88194, type: 3}
       propertyPath: m_Name
       value: Bola4_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6819312675622809148, guid: 00fd6e0e1b07bcd4db229576f5a88194, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7123649546271717938, guid: 00fd6e0e1b07bcd4db229576f5a88194, type: 3}
       propertyPath: m_LocalPosition.x
@@ -69352,7 +69521,7 @@ GameObject:
   - component: {fileID: 496191971}
   - component: {fileID: 496191970}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Trana carpa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69732,6 +69901,51 @@ Transform:
   - {fileID: 1522967542}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &652901418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 652901420}
+  - component: {fileID: 652901419}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &652901419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652901418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3217a944833c158419941684cae97c37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 1406464298}
+--- !u!4 &652901420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652901418}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.661114, y: 16.765007, z: 2.1160278}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &681611884
 GameObject:
   m_ObjectHideFlags: 0
@@ -70081,6 +70295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pato1_0
       objectReference: {fileID: 0}
+    - target: {fileID: 3545313105042001677, guid: 9237a96ca2ca8064bac3bc35f8ee6f42, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -70107,6 +70325,10 @@ PrefabInstance:
     - target: {fileID: 7842939502900131601, guid: 118b57fef5528ac49b8a0867228835ea, type: 3}
       propertyPath: m_Name
       value: Enojo3_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842939502900131601, guid: 118b57fef5528ac49b8a0867228835ea, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8177273139021968695, guid: 118b57fef5528ac49b8a0867228835ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -70689,6 +70911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aburrido1_0
       objectReference: {fileID: 0}
+    - target: {fileID: 7380678902127777538, guid: 3130846fcbf44ff4382e0b811d1b0c95, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -71073,6 +71299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cartas1_0
       objectReference: {fileID: 0}
+    - target: {fileID: 7599551857776833908, guid: a4d514c10fe9d634d9482382cc3b95b7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -71099,6 +71329,10 @@ PrefabInstance:
     - target: {fileID: 1511170367082268837, guid: 32dca98e18d713047921b6cff11ea99f, type: 3}
       propertyPath: m_Name
       value: Enojo4_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1511170367082268837, guid: 32dca98e18d713047921b6cff11ea99f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2676542719689072833, guid: 32dca98e18d713047921b6cff11ea99f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -71461,6 +71695,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395870595}
   m_CullTransparentMesh: 1
+--- !u!1 &1406464298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1406464301}
+  - component: {fileID: 1406464300}
+  - component: {fileID: 1406464299}
+  m_Layer: 5
+  m_Name: PauseMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1406464299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406464298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1406464300
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406464298}
+  m_CullTransparentMesh: 1
+--- !u!224 &1406464301
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406464298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 141920374}
+  m_Father: {fileID: 1657486960}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1414236807
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71512,6 +71822,10 @@ PrefabInstance:
     - target: {fileID: 7573884602128385765, guid: c2919db45bcdf2d4bbba3114315e4b0c, type: 3}
       propertyPath: m_Name
       value: Pato3_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7573884602128385765, guid: c2919db45bcdf2d4bbba3114315e4b0c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -71579,6 +71893,10 @@ PrefabInstance:
     - target: {fileID: 9157206021795997358, guid: 85e49ec7f29756f43a861929eb181df0, type: 3}
       propertyPath: m_Name
       value: Cartas2_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157206021795997358, guid: 85e49ec7f29756f43a861929eb181df0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -71692,6 +72010,10 @@ PrefabInstance:
     - target: {fileID: 2193190339363857578, guid: 947db4b18ce057c49ae83dde13564fe0, type: 3}
       propertyPath: m_Name
       value: Bola3_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2193190339363857578, guid: 947db4b18ce057c49ae83dde13564fe0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8438851431597311337, guid: 947db4b18ce057c49ae83dde13564fe0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -72158,6 +72480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Agua3_0
       objectReference: {fileID: 0}
+    - target: {fileID: 5026485450067165645, guid: ddad94cd837e48c44bba1afc8614a26b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -72342,6 +72668,7 @@ RectTransform:
   m_Children:
   - {fileID: 214599854}
   - {fileID: 2093251671}
+  - {fileID: 1406464301}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -72771,6 +73098,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Agua2_0
       objectReference: {fileID: 0}
+    - target: {fileID: 6474231597513478483, guid: e4571065f4e290941a5671408968f6dd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -72837,6 +73168,10 @@ PrefabInstance:
     - target: {fileID: 5644636002750923975, guid: 2eab39aa6b99b9e42b31d0b77d669bf9, type: 3}
       propertyPath: m_Name
       value: Pato4_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644636002750923975, guid: 2eab39aa6b99b9e42b31d0b77d669bf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -72905,6 +73240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enojo1_0
       objectReference: {fileID: 0}
+    - target: {fileID: 5310824410161912464, guid: 2df2a49657f61cb4faad6984d206c9e4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -72931,6 +73270,10 @@ PrefabInstance:
     - target: {fileID: 82395949196374241, guid: 601c545c6766f70458cd03da10789053, type: 3}
       propertyPath: m_Name
       value: Enojo2_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82395949196374241, guid: 601c545c6766f70458cd03da10789053, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5976089604225510560, guid: 601c545c6766f70458cd03da10789053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -73106,6 +73449,10 @@ PrefabInstance:
     - target: {fileID: 5436608697523454772, guid: 24507dd5514c65f408b06386e69a8bb8, type: 3}
       propertyPath: m_Name
       value: Bola2_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436608697523454772, guid: 24507dd5514c65f408b06386e69a8bb8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -73635,6 +73982,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cartas4_0
       objectReference: {fileID: 0}
+    - target: {fileID: 7402033007019556133, guid: b6ae5588e3a592d488009b02a74e56a4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -73814,6 +74165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bola1_0
       objectReference: {fileID: 0}
+    - target: {fileID: 1076060711410012297, guid: c881f999fe503fa4db840372dfaf87ed, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -73880,6 +74235,10 @@ PrefabInstance:
     - target: {fileID: 5684472339712083333, guid: f9ec71027f19331488e2cf1b6536d31b, type: 3}
       propertyPath: m_Name
       value: Aburrido3_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684472339712083333, guid: f9ec71027f19331488e2cf1b6536d31b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -74023,6 +74382,10 @@ PrefabInstance:
     - target: {fileID: 5869517074288924112, guid: 320ddaf066516234bab5deaa0c07291e, type: 3}
       propertyPath: m_Name
       value: Agua1_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869517074288924112, guid: 320ddaf066516234bab5deaa0c07291e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -74208,6 +74571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cartas3_0
       objectReference: {fileID: 0}
+    - target: {fileID: 6887937299441507754, guid: c07505826fa34ff4a89171f093ba4006, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -74327,6 +74694,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Agua4_0
       objectReference: {fileID: 0}
+    - target: {fileID: 5911311498575997178, guid: 1f6c632344a915e4584436cab9d41695, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -74441,6 +74812,7 @@ SceneRoots:
   - {fileID: 1985362299}
   - {fileID: 42490740}
   - {fileID: 496191971}
+  - {fileID: 349721502}
   - {fileID: 1175202437}
   - {fileID: 2109900910}
   - {fileID: 624539029}
@@ -74466,3 +74838,4 @@ SceneRoots:
   - {fileID: 1695525756}
   - {fileID: 969566288}
   - {fileID: 1364045850}
+  - {fileID: 652901420}

@@ -10,6 +10,7 @@ public class LeverActivation : MonoBehaviour
     public GameObject clown;
     public Sprite laverActivated;
     public Sprite wetClown;
+    public ItemName keyObject;
 
 
     private GameObject pj = null;
@@ -27,6 +28,9 @@ public class LeverActivation : MonoBehaviour
                 gameObject.GetComponent<SpriteRenderer>().sprite = laverActivated;
                 clown.GetComponent<SpriteRenderer>().sprite = wetClown;
                 Msg.SetActive(false);
+                Inventory.Instance.keyItems[(int)keyObject] = true;
+                Inventory.Instance.misionCheck[(int)keyObject] = true;
+                Inventory.Instance.FinishGame();
                 this.enabled = false;
 
             }

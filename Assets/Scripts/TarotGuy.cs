@@ -84,7 +84,7 @@ public class TarotGuy : MonoBehaviour
             }
             else
             {
-                Inventory.Instance.misionCheck[3] = true;
+                Inventory.Instance.misionCheck[Inventory.Instance.misionCheck.Length-1] = true;
                 if (dialogIndex < dialogos3.Length) { UpdateDialog(dialogIndex, dialogos3); }
                 else
                 {

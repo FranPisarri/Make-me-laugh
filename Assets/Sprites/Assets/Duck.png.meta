@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Duck_0: -6524517629087480824
+      Duck_1: 2786517738581093186
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

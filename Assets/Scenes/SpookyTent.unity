@@ -452,6 +452,18 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+    - target: {fileID: 3293249846859595942, guid: e26d3076f19f01845a49f56f51e31afa, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3293249846859595942, guid: e26d3076f19f01845a49f56f51e31afa, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3293249846859595942, guid: e26d3076f19f01845a49f56f51e31afa, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3580466532400522800, guid: e26d3076f19f01845a49f56f51e31afa, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16
@@ -31891,7 +31903,7 @@ GameObject:
   - component: {fileID: 1891055606}
   - component: {fileID: 1891055608}
   - component: {fileID: 1891055609}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SeenPopUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32065,7 +32077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d77dcdc3e7f0942b9c27aa4149d8f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Setspeed: 3
+  Setspeed: 10
   chaseDist: 0
   stopDist: 3
 --- !u!114 &1917104715
@@ -32247,7 +32259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4353920052103514926, guid: 0fce136033e816241b0e41ebb9bfca77, type: 3}
       propertyPath: velocity
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4353920052103514927, guid: 0fce136033e816241b0e41ebb9bfca77, type: 3}
       propertyPath: m_Name

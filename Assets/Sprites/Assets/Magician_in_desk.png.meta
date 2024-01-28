@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Magician_in_desk_0: 4671305527723793769
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

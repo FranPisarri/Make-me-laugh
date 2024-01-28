@@ -70166,6 +70166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sounds
       objectReference: {fileID: 0}
+    - target: {fileID: 6170731740861326450, guid: 7708f1eaa7eac534cb020da67af0c9ac, type: 3}
+      propertyPath: m_Volume
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6683872105706937909, guid: 7708f1eaa7eac534cb020da67af0c9ac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

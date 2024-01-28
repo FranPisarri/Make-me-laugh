@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: e70f3c4affe205c4e985d87841f80d8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9038642590048465425
+    second: Otto_walk_0
+  - first:
+      213: 6792885301637770369
+    second: Otto_walk_1
+  - first:
+      213: -6654838968823038765
+    second: Otto_walk_2
+  - first:
+      213: 4048656985460583084
+    second: Otto_walk_3
+  - first:
+      213: -3442413675342373257
+    second: Otto_walk_4
+  - first:
+      213: 4409418154924651682
+    second: Otto_walk_5
+  - first:
+      213: 8022589479057051529
+    second: Otto_walk_6
+  - first:
+      213: -7668647197360566451
+    second: Otto_walk_7
+  - first:
+      213: -4107261166464446652
+    second: Otto_walk_8
+  - first:
+      213: -945847034280181586
+    second: Otto_walk_9
+  - first:
+      213: -4043029753237708348
+    second: Otto_walk_10
+  - first:
+      213: -7250695703956642230
+    second: Otto_walk_11
+  - first:
+      213: -7862074023267775408
+    second: Otto_walk_12
+  - first:
+      213: -6877085188368646567
+    second: Otto_walk_13
+  - first:
+      213: 1752952998392031359
+    second: Otto_walk_14
+  - first:
+      213: 6887145751849730259
+    second: Otto_walk_15
+  - first:
+      213: -184970896014366436
+    second: Otto_walk_16
+  - first:
+      213: 2990661859765822645
+    second: Otto_walk_17
+  - first:
+      213: -5794562272651748328
+    second: Otto_walk_18
+  - first:
+      213: -6651925311067389946
+    second: Otto_walk_19
+  - first:
+      213: -9150636255093586470
+    second: Otto_walk_20
+  - first:
+      213: -2104935042155059028
+    second: Otto_walk_21
+  - first:
+      213: -5960774635306354976
+    second: Otto_walk_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Otto_walk_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 707
+        width: 184
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fedc170047a409280800000000000000
+      internalID: -9038642590048465425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 707
+        width: 184
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c671c013d254e50800000000000000
+      internalID: 6792885301637770369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_2
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 707
+        width: 184
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc30e9773345a3a0800000000000000
+      internalID: -6654838968823038765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_3
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 707
+        width: 184
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa28cbd318bf2830800000000000000
+      internalID: 4048656985460583084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_4
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 707
+        width: 184
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e554f30071a30d0800000000000000
+      internalID: -3442413675342373257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_5
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 707
+        width: 184
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a431762376613d30800000000000000
+      internalID: 4409418154924651682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_6
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 703
+        width: 184
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f4bfd20a6f55f60800000000000000
+      internalID: 8022589479057051529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 337
+        width: 119
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f4785110e739590800000000000000
+      internalID: -7668647197360566451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 337
+        width: 119
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f4125fab31007c0800000000000000
+      internalID: -4107261166464446652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 337
+        width: 120
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea08fd5322dafd2f0800000000000000
+      internalID: -945847034280181586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_10
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 337
+        width: 119
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c16eed3cd544e7c0800000000000000
+      internalID: -4043029753237708348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_11
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 337
+        width: 119
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46a63f4caa506b90800000000000000
+      internalID: -7250695703956642230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_12
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 337
+        width: 119
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c4c45b45d44e290800000000000000
+      internalID: -7862074023267775408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_13
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 337
+        width: 120
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ebf21257faf80a0800000000000000
+      internalID: -6877085188368646567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_14
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 337
+        width: 119
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78ec19e67db35810800000000000000
+      internalID: 1752952998392031359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 119
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d00857529e049f50800000000000000
+      internalID: 6887145751849730259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_16
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 119
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19274933f9de6df0800000000000000
+      internalID: -184970896014366436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_17
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 120
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4a6a2cd17f08920800000000000000
+      internalID: 2990661859765822645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_18
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 120
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c56bd5054959fa0800000000000000
+      internalID: -5794562272651748328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_19
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 0
+        width: 120
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60006694c2d9fa3a0800000000000000
+      internalID: -6651925311067389946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_20
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 0
+        width: 120
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad50652eec8620180800000000000000
+      internalID: -9150636255093586470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_21
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 0
+        width: 119
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca863194bb4c9c2e0800000000000000
+      internalID: -2104935042155059028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Otto_walk_22
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 119
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6f76cfc03174da0800000000000000
+      internalID: -5960774635306354976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Otto_walk_0: -9038642590048465425
+      Otto_walk_1: 6792885301637770369
+      Otto_walk_10: -4043029753237708348
+      Otto_walk_11: -7250695703956642230
+      Otto_walk_12: -7862074023267775408
+      Otto_walk_13: -6877085188368646567
+      Otto_walk_14: 1752952998392031359
+      Otto_walk_15: 6887145751849730259
+      Otto_walk_16: -184970896014366436
+      Otto_walk_17: 2990661859765822645
+      Otto_walk_18: -5794562272651748328
+      Otto_walk_19: -6651925311067389946
+      Otto_walk_2: -6654838968823038765
+      Otto_walk_20: -9150636255093586470
+      Otto_walk_21: -2104935042155059028
+      Otto_walk_22: -5960774635306354976
+      Otto_walk_3: 4048656985460583084
+      Otto_walk_4: -3442413675342373257
+      Otto_walk_5: 4409418154924651682
+      Otto_walk_6: 8022589479057051529
+      Otto_walk_7: -7668647197360566451
+      Otto_walk_8: -4107261166464446652
+      Otto_walk_9: -945847034280181586
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -26,6 +26,7 @@ public class DialogDuck_Cat : MonoBehaviour
     private int selected = 0;
     public GameObject pj;
     public GameObject duck;
+    public GameObject lifeBar;
 
     [SerializeField] private TextWriter _textWriter;
     void Start()
@@ -72,7 +73,12 @@ public class DialogDuck_Cat : MonoBehaviour
                 if (selected == -1)
                 {
                     //Fight
+                    duck.GetComponent<CircleCollider2D>().enabled = false;
+                    duck.GetComponent<NPCDialogTrigger>().Msg.SetActive(false);
+                    
                     pj.GetComponentInChildren<Camera>().orthographicSize = 5;
+                    pj.GetComponent<Fight>().enabled = true;
+                    lifeBar.SetActive(true);
                     this.gameObject.SetActive(false);
                 }
                 dialogIndex++;

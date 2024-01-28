@@ -25719,17 +25719,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogos1:
   - ...
-  - 1
+  - "Darn it! I\u2019m missing half my deck!"
+  - If you happen to find any cards, please bring them to me.
+  - They could be anywhere
   - ...
   dialogos2:
   - ...
-  - 2
-  - '454 '
+  - "You\u2019ve found "
+  - Keep going!
   - ...
   dialogos3:
   - ...
-  - 3
-  - ...
+  - Now my deck is complete! Divination can begin.
+  - For one, I see lots of treats in your future!
   textMesh: {fileID: 1653026793}
   pj: {fileID: 42490741}
   _textWriter: {fileID: 1545186894}
@@ -71022,7 +71024,7 @@ GameObject:
   - component: {fileID: 1895070797}
   - component: {fileID: 1895070800}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: Mago
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

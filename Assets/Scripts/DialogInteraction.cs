@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public enum ItemName
 {
-    clownNose, lostBoy, item3
+    clownNose, lostBoy, teddyBear
 }
 
 public class DialogInteraction : MonoBehaviour

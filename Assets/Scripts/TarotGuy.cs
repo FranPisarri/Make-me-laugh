@@ -65,9 +65,9 @@ public class TarotGuy : MonoBehaviour
                     {
                         string newDialogue;
                         newDialogue = dialogos2[dialogIndex];
-                        if (dialogIndex == 2)
+                        if (dialogIndex == 1)
                         {
-                            newDialogue = dialogos2[dialogIndex] + cardQuantity.ToString();
+                            newDialogue = dialogos2[dialogIndex] + cardQuantity.ToString() + " of the 10 cards.";
 
                         }
                         UpdateDialog(newDialogue);

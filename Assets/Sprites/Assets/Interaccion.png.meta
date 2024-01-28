@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: dbf524c21d8d68a41b4212aea4bef9b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2603036330878490605
+    second: Interaccion_0
+  - first:
+      213: 1375262719429417606
+    second: Interaccion_1
+  - first:
+      213: 2429282512643765109
+    second: Interaccion_2
+  - first:
+      213: 4341152708521662660
+    second: Interaccion_3
+  - first:
+      213: -8301199471367695777
+    second: Interaccion_4
+  - first:
+      213: 8487538324644482436
+    second: Interaccion_5
+  - first:
+      213: 141347964132758469
+    second: Interaccion_6
+  - first:
+      213: 9100041704028946912
+    second: Interaccion_7
+  - first:
+      213: -4007401228249311680
+    second: Interaccion_8
+  - first:
+      213: -988536434618511893
+    second: Interaccion_9
+  - first:
+      213: 3271493936622284649
+    second: Interaccion_10
+  - first:
+      213: 2318066663307392129
+    second: Interaccion_11
+  - first:
+      213: 4532480963711259583
+    second: Interaccion_12
+  - first:
+      213: -2121572936955042509
+    second: Interaccion_13
+  - first:
+      213: 8005338561237324428
+    second: Interaccion_14
+  - first:
+      213: -3224937032907078077
+    second: Interaccion_15
+  - first:
+      213: -592797662848423221
+    second: Interaccion_16
+  - first:
+      213: -2512800945269990500
+    second: Interaccion_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Interaccion_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 139
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7d27f50c7df1420800000000000000
+      internalID: 2603036330878490605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 88
+        width: 158
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a9d68282ae51310800000000000000
+      internalID: 1375262719429417606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_2
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 138
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5733339039b86b120800000000000000
+      internalID: 2429282512643765109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_3
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 180
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c89823536fde3c30800000000000000
+      internalID: 4341152708521662660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_4
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 138
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52d77bff073ccc80800000000000000
+      internalID: -8301199471367695777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_5
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 138
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dc2f9232bc9c570800000000000000
+      internalID: 8487538324644482436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 139
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c39bd7793b26f100800000000000000
+      internalID: 141347964132758469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 138
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1c2e937b7d94e70800000000000000
+      internalID: 9100041704028946912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_8
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 138
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0465cb5a0d9d268c0800000000000000
+      internalID: -4007401228249311680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_9
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 138
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed4807a9530842f0800000000000000
+      internalID: -988536434618511893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_10
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 138
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f2739f66ea66d20800000000000000
+      internalID: 3271493936622284649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_11
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 139
+        width: 11
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184bc10495d6b2020800000000000000
+      internalID: 2318066663307392129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_12
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 139
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3da312c6b96ee30800000000000000
+      internalID: 4532480963711259583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_13
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 138
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33566b787a8ae82e0800000000000000
+      internalID: -2121572936955042509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_14
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 139
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c829941e10da81f60800000000000000
+      internalID: 8005338561237324428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_15
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 138
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3464292ead8be33d0800000000000000
+      internalID: -3224937032907078077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_16
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 138
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcaec3a9aa5f5c7f0800000000000000
+      internalID: -592797662848423221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interaccion_17
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 138
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b9ae98adcb02dd0800000000000000
+      internalID: -2512800945269990500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Interaccion_0: 2603036330878490605
+      Interaccion_1: 1375262719429417606
+      Interaccion_10: 3271493936622284649
+      Interaccion_11: 2318066663307392129
+      Interaccion_12: 4532480963711259583
+      Interaccion_13: -2121572936955042509
+      Interaccion_14: 8005338561237324428
+      Interaccion_15: -3224937032907078077
+      Interaccion_16: -592797662848423221
+      Interaccion_17: -2512800945269990500
+      Interaccion_2: 2429282512643765109
+      Interaccion_3: 4341152708521662660
+      Interaccion_4: -8301199471367695777
+      Interaccion_5: 8487538324644482436
+      Interaccion_6: 141347964132758469
+      Interaccion_7: 9100041704028946912
+      Interaccion_8: -4007401228249311680
+      Interaccion_9: -988536434618511893
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

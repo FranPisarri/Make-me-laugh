@@ -6,6 +6,7 @@ public class Fight : MonoBehaviour
 {
     [SerializeField] Animator attackAnimation;
     [SerializeField] GameObject lifeBar;
+    [SerializeField] GameObject interactionButton;
     [SerializeField] GameObject duck;
     [SerializeField] Sprite deathDuck;
 
@@ -19,6 +20,7 @@ public class Fight : MonoBehaviour
         escala = 2;
         contador = 0;
         time = 0;
+        interactionButton.SetActive(true);
         
     }
 
@@ -47,7 +49,7 @@ public class Fight : MonoBehaviour
                     i = Inventory.Instance.cards.Length;
                 }
             }
-
+            interactionButton.SetActive(false);
             gameObject.GetComponent<Movement_Player>().enabled = true;
             this.enabled = false;
         }

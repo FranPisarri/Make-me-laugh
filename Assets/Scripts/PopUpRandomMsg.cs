@@ -21,6 +21,7 @@ public class PopUpRandomMsg : MonoBehaviour
         time += Time.deltaTime;
         if (time > timer)
         {
+            Debug.Log("PopUp");
             value = Random.Range(0, popUps.Length);
             while (value == lastValue)
             {

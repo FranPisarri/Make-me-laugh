@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 22a29be6b93af6f4da809f990d630764
+guid: 48179dc071cc0d74a8189595f1268cbc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3748856384916139885
-    second: Boat_With_Couple_Back_0
-  - first:
-      213: -2338989035743619316
-    second: Boat_With_Couple_Back_1
-  - first:
-      213: -5624233192702876829
-    second: Boat_With_Couple_Back_2
+      213: -1232479276464195975
+    second: Clown_icon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boat_With_Couple_Back_0
+      name: Clown_icon_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 911
-        height: 782
+        width: 296
+        height: 172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,50 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3905e1feaf269fbc0800000000000000
-      internalID: -3748856384916139885
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boat_With_Couple_Back_1
-      rect:
-        serializedVersion: 2
-        x: 817
-        y: 66
-        width: 150
-        height: 233
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c07d7fe4ddd3a8fd0800000000000000
-      internalID: -2338989035743619316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boat_With_Couple_Back_2
-      rect:
-        serializedVersion: 2
-        x: 886
-        y: 53
-        width: 146
-        height: 307
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 363ebfea5b5b2f1b0800000000000000
-      internalID: -5624233192702876829
+      spriteID: 9763255c0aa55eee0800000000000000
+      internalID: -1232479276464195975
       vertices: []
       indices: 
       edges: []
@@ -178,10 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Boat_With_Couple_Back_0: -3748856384916139885
-      Boat_With_Couple_Back_1: -2338989035743619316
-      Boat_With_Couple_Back_2: -5624233192702876829
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

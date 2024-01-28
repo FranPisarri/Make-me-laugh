@@ -75332,6 +75332,7 @@ MonoBehaviour:
   cards: 00000000000000000000
   keyItems: 000000
   spawnCoordinates: {x: 0, y: 0, z: 0}
+  misionCheck: 00000000
 --- !u!4 &2109900910
 Transform:
   m_ObjectHideFlags: 0

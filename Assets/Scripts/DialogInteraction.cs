@@ -52,9 +52,11 @@ public class DialogInteraction : MonoBehaviour
             }
             else
             {
+                Inventory.Instance.misionCheck[(int)keyObject] = true;
                 if (dialogIndex < dialogos2.Length) { UpdateDialog(dialogIndex, dialogos2); }
                 else
                 {
+                    Inventory.Instance.FinishGame();
                     pj.GetComponent<Movement_Player>().enabled = true;
                     gameObject.SetActive(false);
                 }

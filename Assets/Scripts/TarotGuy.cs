@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -83,9 +84,11 @@ public class TarotGuy : MonoBehaviour
             }
             else
             {
+                Inventory.Instance.misionCheck[3] = true;
                 if (dialogIndex < dialogos3.Length) { UpdateDialog(dialogIndex, dialogos3); }
                 else
                 {
+                    Inventory.Instance.FinishGame();
                     pj.GetComponent<Movement_Player>().enabled = true;
                     gameObject.SetActive(false);
                 }

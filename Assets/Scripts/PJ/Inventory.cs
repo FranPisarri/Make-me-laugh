@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Inventory : MonoBehaviour
 {
@@ -22,11 +23,25 @@ public class Inventory : MonoBehaviour
 
     public bool[] cards;
     public bool[] keyItems;
-    //Elemento0 = clownNose
 
     public Vector3 spawnCoordinates;
-    
+
+    public bool[] misionCheck;
+
+    public void FinishGame()
+    {
+        bool finishGame = true;
+        for(int i = 0; i < misionCheck.Length; i++)
+        {
+            if (!misionCheck[i]) { finishGame = false; break; }
+        }
+
+        if (finishGame)
+        {
+            SceneManager.LoadScene("EndingScene");
+        }
+    }
 
 
-    
+
 }

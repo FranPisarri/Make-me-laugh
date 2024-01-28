@@ -298,7 +298,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Teclas_0: -5668795105989534970
+      Teclas_1: -9156802782555630004
+      Teclas_2: 4975070973683788868
+      Teclas_3: -5921809524246091223
+      Teclas_4: 153165470818770510
+      Teclas_5: 3236423583088787542
+      Teclas_6: -4895027881518296050
+      Teclas_7: 7705344965767026004
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

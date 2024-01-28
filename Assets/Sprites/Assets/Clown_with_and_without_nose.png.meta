@@ -178,7 +178,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Clown_with_and_without_nose_0: -7393734044249250320
+      Clown_with_and_without_nose_1: -3446357441777089421
+      Clown_with_and_without_nose_2: 3442979108182476341
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

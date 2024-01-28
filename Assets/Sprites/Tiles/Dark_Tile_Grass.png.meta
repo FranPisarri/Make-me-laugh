@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dark_Tile_Grass_0: -251874799120560354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pasto fog of war_0: 8986420487853381091
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

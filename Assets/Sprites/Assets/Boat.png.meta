@@ -226,7 +226,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boat_0: -4548796474974412338
+      Boat_1: 7632911036448307472
+      Boat_2: -6510708078897605904
+      Boat_3: -4004004091888637276
+      Boat_4: -7633493894899425504
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

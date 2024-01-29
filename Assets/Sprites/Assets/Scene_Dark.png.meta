@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3d330da81d9e503488a1cf297a1ed85d
+guid: 9e7e3494c4751324ca0fda20e9a386b3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5656432527434878755
-    second: Alfombra_0
+      213: 7853273093847780055
+    second: Scene_Dark_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alfombra_0
+      name: Scene_Dark_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 31
-        width: 531
-        height: 324
+        x: 0
+        y: 0
+        width: 1931
+        height: 1095
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32f88b52a6faf7e40800000000000000
-      internalID: 5656432527434878755
+      spriteID: 7da0eea354e6cfc60800000000000000
+      internalID: 7853273093847780055
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Alfombra_0: 5656432527434878755
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

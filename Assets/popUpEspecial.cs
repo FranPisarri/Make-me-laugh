@@ -5,7 +5,7 @@ using UnityEngine;
 public class popUpEspecial : MonoBehaviour
 {
     private float time = 0;
-    private float timer = 1;
+    private float timer = 3;
 
     private bool activo = true;
 

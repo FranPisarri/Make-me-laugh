@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3d330da81d9e503488a1cf297a1ed85d
+guid: 10b94bb3745f17b46a9aa9a97749c957
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5656432527434878755
-    second: Alfombra_0
+      213: -2374474480940007843
+    second: Duck_Icon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alfombra_0
+      name: Duck_Icon_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 31
-        width: 531
-        height: 324
+        x: 0
+        y: 0
+        width: 115
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32f88b52a6faf7e40800000000000000
-      internalID: 5656432527434878755
+      spriteID: d5e37534a0c2c0fd0800000000000000
+      internalID: -2374474480940007843
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Alfombra_0: 5656432527434878755
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

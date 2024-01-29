@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Otto's face_0: 1158016639278698306
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

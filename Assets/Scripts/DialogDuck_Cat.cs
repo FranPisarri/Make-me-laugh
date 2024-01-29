@@ -97,11 +97,7 @@ public class DialogDuck_Cat : MonoBehaviour
 
                 for (int i = 0; i < Inventory.Instance.cards.Length; i++)
                 {
-                    if (!Inventory.Instance.cards[i])
-                    {
-                        Inventory.Instance.cards[i] = true;
-                        i = Inventory.Instance.cards.Length;
-                    }
+                    Inventory.Instance.cards[pj.GetComponent<Fight>().cardNumber] = true;
                 }
 
                 gameObject.SetActive(false);

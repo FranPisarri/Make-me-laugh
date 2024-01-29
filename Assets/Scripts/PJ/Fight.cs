@@ -14,7 +14,10 @@ public class Fight : MonoBehaviour
     private float escala;
     public float timer;
     private float time;
-    
+
+
+    public int cardNumber;
+
     void Start()
     {
         escala = 2;
@@ -45,8 +48,7 @@ public class Fight : MonoBehaviour
             {
                 if (!Inventory.Instance.cards[i])
                 {
-                    Inventory.Instance.cards[i] = true;
-                    i = Inventory.Instance.cards.Length;
+                    Inventory.Instance.cards[cardNumber] = true;
                 }
             }
             interactionButton.SetActive(false);

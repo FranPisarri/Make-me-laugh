@@ -7,11 +7,15 @@ public class CardTrigger : MonoBehaviour
 
     private bool isTrigger;
     public GameObject Msg;
-
+    public int cardNumber;
 
     private void Start()
     {
         isTrigger = false;
+        if (Inventory.Instance.cards[cardNumber])
+        {
+            gameObject.SetActive(false);
+        }
     }
     void Update()
     {
@@ -19,15 +23,9 @@ public class CardTrigger : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                for (int i = 0;i < Inventory.Instance.cards.Length; i++)
-                {
-                    if (!Inventory.Instance.cards[i])
-                    {
-                        Inventory.Instance.cards[i] = true;
-                        i= Inventory.Instance.cards.Length;
-                    }
-                }
-                
+                Inventory.Instance.cards[cardNumber] = true;
+
+
                 this.gameObject.SetActive(false);
 
             }

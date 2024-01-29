@@ -189,6 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Msg: {fileID: 5409281943397837270}
+  cardNumber: 0
 --- !u!61 &1231538003557472886
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -233,7 +234,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.0923023, y: 5.543711}
+  m_Size: {x: 20, y: 20}
   m_EdgeRadius: 0
 --- !u!95 &-5452243212408186465
 Animator:

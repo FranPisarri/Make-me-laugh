@@ -370,6 +370,7 @@ MonoBehaviour:
   duck: {fileID: 335901290}
   deathDuck: {fileID: 7137651277739695788, guid: f684bc089f0693146b6872f06410f260, type: 3}
   timer: 0.2
+  cardNumber: 0
 --- !u!1 &43728032
 GameObject:
   m_ObjectHideFlags: 0
@@ -51127,6 +51128,7 @@ GameObject:
   - component: {fileID: 335901292}
   - component: {fileID: 335901291}
   - component: {fileID: 335901294}
+  - component: {fileID: 335901295}
   m_Layer: 6
   m_Name: Duck
   m_TagString: Untagged
@@ -51256,6 +51258,19 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -3.04, y: 0.9}
   m_Radius: 2.37
+--- !u!114 &335901295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335901290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c10f5d936b8bf48bc1d5852e5d3d4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardNumber: 0
 --- !u!1 &340098747
 GameObject:
   m_ObjectHideFlags: 0
@@ -78012,6 +78027,10 @@ PrefabInstance:
     - target: {fileID: 1576263105709324141, guid: 0738bbdb4dafb7a48b3266a9c6eaff46, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140957980611558463, guid: 0738bbdb4dafb7a48b3266a9c6eaff46, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7673033127092893368, guid: 0738bbdb4dafb7a48b3266a9c6eaff46, type: 3}
       propertyPath: m_Pivot.x

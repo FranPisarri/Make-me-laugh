@@ -6,7 +6,8 @@ using UnityEngine;
 public class Movement_Player : MonoBehaviour
 {
 
-    public Animator anim;
+    public Animator anim; 
+    // walk 0 --> Idle, 1 --> Side, 2 --> Up, 3 --> Down, 4 --> Fight, 5 --> DiagonalUp, 6 --> DiagonalDown
 
     public float velocity;
     private Vector2 direction = Vector2.zero;
@@ -45,6 +46,24 @@ public class Movement_Player : MonoBehaviour
         if (arriba < 0)
         {
             anim.SetInteger("Walk", 3);
+        }
+        if (derecha > 0 && arriba > 0)
+        {
+            anim.SetInteger("Walk", 5);
+        }
+        if (derecha > 0 && arriba < 0) 
+        {
+            anim.SetInteger("Walk", 6);
+        }
+        if (derecha < 0 && arriba > 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+            anim.SetInteger("Walk", 5);
+        }
+        if (derecha < 0 && arriba < 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+            anim.SetInteger("Walk", 6);
         }
         if (derecha == 0 && arriba == 0)
         {

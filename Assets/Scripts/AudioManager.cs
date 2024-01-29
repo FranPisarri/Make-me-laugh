@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private NPCDialogTrigger meowSound;
     [SerializeField] private DarknessTrigger laughSound;
     [SerializeField] private CardTrigger cardSound;
+    [SerializeField] private CardTrigger card2Sound;
     [SerializeField] private Fight fightSound;
 
 
@@ -25,6 +26,7 @@ public class AudioManager : MonoBehaviour
         meowSound.Onhit.AddListener(MeowSound);
         laughSound.Onhit.AddListener(LaughSound);
         cardSound.Onhit.AddListener(CardSound);
+        card2Sound.Onhit.AddListener(CardSound);
         fightSound.Onhit.AddListener(FightSound);
     }
 

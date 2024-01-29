@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class NPCDialogTrigger : MonoBehaviour
 {
+    public UnityEvent Onhit = new UnityEvent();
 
-    
     private bool isTrigger;
     public bool IsTrigger => isTrigger;
 
@@ -25,6 +26,8 @@ public class NPCDialogTrigger : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
+                Onhit.Invoke();
+
                 pj.GetComponent<Movement_Player>().enabled = false;
                 Dialog.SetActive(true);
 

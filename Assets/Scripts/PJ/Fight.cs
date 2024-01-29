@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Fight : MonoBehaviour
 {
+    public UnityEvent Onhit = new UnityEvent();
+
     [SerializeField] Animator attackAnimation;
     [SerializeField] GameObject lifeBar;
     [SerializeField] GameObject interactionButton;
@@ -32,6 +35,8 @@ public class Fight : MonoBehaviour
         time += Time.deltaTime;
         if (Input.GetKeyDown(KeyCode.F) && time > timer)
         {
+            Onhit.Invoke();
+
             attackAnimation.SetInteger("Walk", 4);
             escala -= 0.1f;
             lifeBar.transform.localScale = new Vector2(escala, 0.3f);

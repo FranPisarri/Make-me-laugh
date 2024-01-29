@@ -12,6 +12,8 @@ public class LeverActivation : MonoBehaviour
     public Sprite wetClown;
     public ItemName keyObject;
 
+    [SerializeField] private GameObject slider;
+
 
     private GameObject pj = null;
     private void Start()
@@ -30,6 +32,7 @@ public class LeverActivation : MonoBehaviour
                 Msg.SetActive(false);
                 Inventory.Instance.keyItems[(int)keyObject] = true;
                 Inventory.Instance.misionCheck[(int)keyObject] = true;
+                slider.GetComponent<LaughProgres>().SetSliderValue();
                 Inventory.Instance.FinishGame();
                 this.enabled = false;
 

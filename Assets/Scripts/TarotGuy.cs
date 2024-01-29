@@ -20,8 +20,12 @@ public class TarotGuy : MonoBehaviour
     public GameObject pj;
     private int cardQuantity;
 
+    
+
 
     [SerializeField] private TextWriter _textWriter;
+    [SerializeField] private GameObject slider;
+
 
 
     void Start()
@@ -88,6 +92,7 @@ public class TarotGuy : MonoBehaviour
                 if (dialogIndex < dialogos3.Length) { UpdateDialog(dialogIndex, dialogos3); }
                 else
                 {
+                    slider.GetComponent<LaughProgres>().SetSliderValue();
                     Inventory.Instance.FinishGame();
                     pj.GetComponent<Movement_Player>().enabled = true;
                     gameObject.SetActive(false);

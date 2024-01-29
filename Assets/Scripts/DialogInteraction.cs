@@ -22,6 +22,7 @@ public class DialogInteraction : MonoBehaviour
     
 
     [SerializeField] private TextWriter _textWriter;
+    [SerializeField] private GameObject slider;
 
 
     void Start()
@@ -56,6 +57,7 @@ public class DialogInteraction : MonoBehaviour
                 if (dialogIndex < dialogos2.Length) { UpdateDialog(dialogIndex, dialogos2); }
                 else
                 {
+                    slider.GetComponent<LaughProgres>().SetSliderValue();
                     Inventory.Instance.FinishGame();
                     pj.GetComponent<Movement_Player>().enabled = true;
                     gameObject.SetActive(false);

@@ -21,6 +21,7 @@ public class LaughProgres : MonoBehaviour
 
     public void SetSliderValue()
     {
+        progress = 0;
         for (int i = 0; i < Inventory.Instance.misionCheck.Length; i++)
         {
             if (Inventory.Instance.misionCheck[i])

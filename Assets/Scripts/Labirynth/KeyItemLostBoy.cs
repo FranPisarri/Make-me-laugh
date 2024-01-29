@@ -14,6 +14,12 @@ public class KeyItemLostBoy : MonoBehaviour
     private void Start()
     {
         isTrigger = false;
+
+        if (Inventory.Instance.keyItems[(int)keyItem])
+        {
+            gameObject.SetActive(false);
+        }
+
     }
 
     void Update()

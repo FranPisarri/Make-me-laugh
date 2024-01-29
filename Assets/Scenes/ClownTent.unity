@@ -3130,6 +3130,116 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06f7f327de7aa744d87f1ec19659f625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &109963495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 109963497}
+  - component: {fileID: 109963498}
+  - component: {fileID: 109963496}
+  - component: {fileID: 109963500}
+  - component: {fileID: 109963499}
+  m_Layer: 0
+  m_Name: Triggers para audios no usados
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &109963496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109963495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe86cb59e1352c541aca949ad6109026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Onhit:
+    m_PersistentCalls:
+      m_Calls: []
+  attackAnimation: {fileID: 0}
+  lifeBar: {fileID: 0}
+  interactionButton: {fileID: 0}
+  duck: {fileID: 0}
+  deathDuck: {fileID: 0}
+  timer: 0
+  cardNumber: 0
+--- !u!4 &109963497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109963495}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 83.51782, y: -40.38187, z: -5.035749}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 222725571}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &109963498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109963495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb484cbd9b2e484ca80b3029369c046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Onhit:
+    m_PersistentCalls:
+      m_Calls: []
+  Msg: {fileID: 0}
+  cardNumber: 0
+--- !u!114 &109963499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109963495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b308ce8c8e0414fa38a84775ccb650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Onhit:
+    m_PersistentCalls:
+      m_Calls: []
+  globalLight: {fileID: 0}
+  playerLight: {fileID: 0}
+  trap: {fileID: 0}
+  animatronics: []
+--- !u!114 &109963500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109963495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a214f45764485c7489ddd18dee664b0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Onhit:
+    m_PersistentCalls:
+      m_Calls: []
+  Msg: {fileID: 0}
+  Dialog: {fileID: 0}
 --- !u!1 &124574730 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8558403059665320069, guid: 2e80b5c14fa5780448fb9b9fc7888a67, type: 3}
@@ -3760,16 +3870,16 @@ MonoBehaviour:
   fight: {fileID: 8300000, guid: 17580700297631a49a5a7b24495f8fe7, type: 3}
   m_audiosource: {fileID: 222725569}
   meowSound: {fileID: 625887172}
-  meow2Sound: {fileID: 0}
-  meow3Sound: {fileID: 0}
-  meow4Sound: {fileID: 0}
-  laughSound: {fileID: 0}
+  meow2Sound: {fileID: 109963500}
+  meow3Sound: {fileID: 109963500}
+  meow4Sound: {fileID: 109963500}
+  laughSound: {fileID: 109963499}
   cardSound: {fileID: 1095630277}
   card2Sound: {fileID: 1302102604}
-  card3Sound: {fileID: 0}
-  card4Sound: {fileID: 0}
-  card5Sound: {fileID: 0}
-  fightSound: {fileID: 0}
+  card3Sound: {fileID: 109963498}
+  card4Sound: {fileID: 109963498}
+  card5Sound: {fileID: 109963498}
+  fightSound: {fileID: 109963496}
 --- !u!4 &222725571
 Transform:
   m_ObjectHideFlags: 0
@@ -3782,7 +3892,8 @@ Transform:
   m_LocalPosition: {x: -13.514456, y: 80.389885, z: -6.459946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 109963497}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &238786818 stripped

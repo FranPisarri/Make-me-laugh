@@ -12,17 +12,17 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioClip card;
     [SerializeField] AudioClip fight;
     [SerializeField] AudioSource m_audiosource;
-    [SerializeField] private NPCDialogTrigger meowSound;
-    [SerializeField] private NPCDialogTrigger meow2Sound;
-    [SerializeField] private NPCDialogTrigger meow3Sound;
-    [SerializeField] private NPCDialogTrigger meow4Sound;
-    [SerializeField] private DarknessTrigger laughSound;
-    [SerializeField] private CardTrigger cardSound;
-    [SerializeField] private CardTrigger card2Sound;
-    [SerializeField] private CardTrigger card3Sound;
-    [SerializeField] private CardTrigger card4Sound;
-    [SerializeField] private CardTrigger card5Sound;
-    [SerializeField] private Fight fightSound;
+    [SerializeField] private NPCDialogTrigger meowSound = null;
+    [SerializeField] private NPCDialogTrigger meow2Sound = null;
+    [SerializeField] private NPCDialogTrigger meow3Sound = null;
+    [SerializeField] private NPCDialogTrigger meow4Sound = null;
+    [SerializeField] private DarknessTrigger laughSound = null;
+    [SerializeField] private CardTrigger cardSound = null;
+    [SerializeField] private CardTrigger card2Sound = null;
+    [SerializeField] private CardTrigger card3Sound = null;
+    [SerializeField] private CardTrigger card4Sound = null;
+    [SerializeField] private CardTrigger card5Sound = null;
+    [SerializeField] private Fight fightSound = null;
 
 
     private void Start()

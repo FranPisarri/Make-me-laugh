@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CardTrigger : MonoBehaviour
 {
+    public UnityEvent Onhit = new UnityEvent();
 
     private bool isTrigger;
     public GameObject Msg;
@@ -23,6 +25,8 @@ public class CardTrigger : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
+                Onhit.Invoke();
+
                 Inventory.Instance.cards[cardNumber] = true;
 
 

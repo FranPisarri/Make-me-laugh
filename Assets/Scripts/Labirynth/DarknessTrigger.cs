@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Rendering.Universal;
 
 public class DarknessTrigger : MonoBehaviour
 {
+    public UnityEvent Onhit = new UnityEvent();
+
     public Light2D globalLight;
 
     public Light2D playerLight;
@@ -15,6 +18,8 @@ public class DarknessTrigger : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
+        Onhit.Invoke();
+
         globalLight.intensity = 0.1f;
 
         playerLight.intensity = 1;

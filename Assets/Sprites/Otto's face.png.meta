@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b6b646ce763de614f8cb0bb0c2a93706
+guid: 51d05cacbd0350f4d8e4a4859cdf1073
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9059601078475292556
-    second: Bathroom_0
+      213: 1158016639278698306
+    second: Otto's face_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bathroom_0
+      name: Otto's face_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2034
-        height: 1465
+        width: 112
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4700cb6a1d4d54280800000000000000
-      internalID: -9059601078475292556
+      spriteID: 24fc23c7ff9121010800000000000000
+      internalID: 1158016639278698306
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Bathroom_0: -9059601078475292556
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

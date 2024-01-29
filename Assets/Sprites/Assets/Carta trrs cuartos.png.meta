@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Carta trrs cuartos_0: 799978126675678536
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

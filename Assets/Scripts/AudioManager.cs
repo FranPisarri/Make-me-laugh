@@ -13,9 +13,15 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioClip fight;
     [SerializeField] AudioSource m_audiosource;
     [SerializeField] private NPCDialogTrigger meowSound;
+    [SerializeField] private NPCDialogTrigger meow2Sound;
+    [SerializeField] private NPCDialogTrigger meow3Sound;
+    [SerializeField] private NPCDialogTrigger meow4Sound;
     [SerializeField] private DarknessTrigger laughSound;
     [SerializeField] private CardTrigger cardSound;
     [SerializeField] private CardTrigger card2Sound;
+    [SerializeField] private CardTrigger card3Sound;
+    [SerializeField] private CardTrigger card4Sound;
+    [SerializeField] private CardTrigger card5Sound;
     [SerializeField] private Fight fightSound;
 
 
@@ -24,9 +30,15 @@ public class AudioManager : MonoBehaviour
         m_audiosource = GetComponent<AudioSource>();
 
         meowSound.Onhit.AddListener(MeowSound);
+        meow2Sound.Onhit.AddListener(MeowSound);
+        meow3Sound.Onhit.AddListener(MeowSound);
+        meow4Sound.Onhit.AddListener(MeowSound);
         laughSound.Onhit.AddListener(LaughSound);
         cardSound.Onhit.AddListener(CardSound);
         card2Sound.Onhit.AddListener(CardSound);
+        card3Sound.Onhit.AddListener(CardSound);
+        card4Sound.Onhit.AddListener(CardSound);
+        card5Sound.Onhit.AddListener(CardSound);
         fightSound.Onhit.AddListener(FightSound);
     }
 

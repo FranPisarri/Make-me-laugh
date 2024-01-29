@@ -394,6 +394,7 @@ GameObject:
   - component: {fileID: 305274492}
   - component: {fileID: 305274491}
   - component: {fileID: 305274490}
+  - component: {fileID: 305274493}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -477,6 +478,18 @@ MonoBehaviour:
           m_StringArgument: CarnivalPatio
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 305274493}
+        m_TargetAssemblyTypeName: SpawnPoint, Assembly-CSharp
+        m_MethodName: SetSpawnPoint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &305274491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -515,6 +528,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305274488}
   m_CullTransparentMesh: 1
+--- !u!114 &305274493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305274488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b88800a484d00514fb5c1161b5d78314, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &317732971
 GameObject:
   m_ObjectHideFlags: 0
@@ -1127,7 +1152,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1144,6 +1169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   music: 1
+  audioSouerce: {fileID: 0}
 --- !u!1 &612142751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1633,7 +1659,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1650,6 +1676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   music: 0
+  audioSouerce: {fileID: 0}
 --- !u!1 &849177855
 GameObject:
   m_ObjectHideFlags: 0
@@ -2208,6 +2235,14 @@ PrefabInstance:
     - target: {fileID: 1529211173282174665, guid: f2b9a88641a97b644a9e02f8d065e19c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6224873018492641309, guid: f2b9a88641a97b644a9e02f8d065e19c, type: 3}
+      propertyPath: spawnCoordinates.x
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6224873018492641309, guid: f2b9a88641a97b644a9e02f8d065e19c, type: 3}
+      propertyPath: spawnCoordinates.y
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8876007782651310861, guid: f2b9a88641a97b644a9e02f8d065e19c, type: 3}
       propertyPath: m_Name

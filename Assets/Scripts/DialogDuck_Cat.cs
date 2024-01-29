@@ -95,10 +95,8 @@ public class DialogDuck_Cat : MonoBehaviour
                 duck.GetComponent<NPCDialogTrigger>().Msg.GetComponent<SpriteRenderer>().enabled = false;
                 duck.GetComponent<NPCDialogTrigger>().enabled = false;
 
-                for (int i = 0; i < Inventory.Instance.cards.Length; i++)
-                {
-                    Inventory.Instance.cards[pj.GetComponent<Fight>().cardNumber] = true;
-                }
+
+                Inventory.Instance.cards[pj.GetComponent<Fight>().cardNumber] = true;
 
                 gameObject.SetActive(false);
                 dialogIndex = 0;

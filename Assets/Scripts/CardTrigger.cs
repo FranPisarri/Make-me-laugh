@@ -29,9 +29,7 @@ public class CardTrigger : MonoBehaviour
 
                 Inventory.Instance.cards[cardNumber] = true;
 
-
                 this.gameObject.SetActive(false);
-
             }
         }
     }

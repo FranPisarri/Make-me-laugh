@@ -60,6 +60,7 @@ public class AudioManager : MonoBehaviour
         m_audiosource.clip = laugh;
         m_audiosource.PlayOneShot(laugh);
     }
+
     public void CardSound()
     {
         m_audiosource.clip = card;

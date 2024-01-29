@@ -1,35 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.UI;
 
 public class VolumeController : MonoBehaviour
 {
-    public Slider volumeSlider;
 
-    private SoundManager soundManager;
+    public static VolumeController Instance;
 
-    private void Start()
+
+    public float MusicVolume;
+    public float SFXVolume;
+
+
+    private void Awake()
     {
-        // Find the SoundManager in the scene
-        soundManager = GameObject.Find("Sounds").GetComponent<SoundManager>();
-
-        if (soundManager == null)
+        if (Instance == null)
         {
-            Debug.LogError("SoundManager not found in the scene.");
-            return;
+            VolumeController.Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
-
-        // Set the initial volume to the slider value
-        volumeSlider.value = soundManager.GetVolume();
-        // Add a listener to the slider value changed event
-        volumeSlider.onValueChanged.AddListener(ChangeVolume);
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    private void ChangeVolume(float volume)
+    public void SetMusicVolumeTo(float volume)
     {
-        // Update the volume of the SoundManager when the slider value changes
-        soundManager.SetVolume(volume);
+        MusicVolume = volume;
+    }
+    public void SetSFXVolumeTo(float volume)
+    {
+        SFXVolume = volume;
     }
 }
 

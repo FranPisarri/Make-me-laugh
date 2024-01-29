@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 938715709983779710}
   - component: {fileID: 1708649130205649902}
   - component: {fileID: 4353920052103514926}
+  - component: {fileID: 3671732371865293236}
   m_Layer: 8
   m_Name: PJ
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168,8 +169,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.485}
-  m_Size: {x: 1.01, y: 1.01}
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1.8, y: 1.96}
   m_Direction: 0
 --- !u!50 &1708649130205649902
 Rigidbody2D:
@@ -212,6 +213,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 6148652336238251011}
   velocity: 10
+--- !u!114 &3671732371865293236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4353920052103514927}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe86cb59e1352c541aca949ad6109026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Onhit:
+    m_PersistentCalls:
+      m_Calls: []
+  attackAnimation: {fileID: 6148652336238251011}
+  lifeBar: {fileID: 0}
+  interactionButton: {fileID: 0}
+  duck: {fileID: 0}
+  deathDuck: {fileID: 7137651277739695788, guid: f684bc089f0693146b6872f06410f260, type: 3}
+  timer: 0.2
+  cardNumber: 9
 --- !u!1 &4353920052850350126
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,7 +248,7 @@ GameObject:
   - component: {fileID: 6148652336238251011}
   m_Layer: 8
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -332,6 +355,7 @@ GameObject:
   - component: {fileID: 6993293956417135465}
   - component: {fileID: 477104148104280192}
   - component: {fileID: 7837939685007865863}
+  - component: {fileID: 9171243030979648285}
   m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -389,7 +413,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10.83
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -413,3 +437,47 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8785306962467539194}
   m_Enabled: 1
+--- !u!114 &9171243030979648285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8785306962467539194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
